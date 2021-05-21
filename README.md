@@ -28,9 +28,14 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [James Q Quick](https://www.youtube.com/c/JamesQQuick)
 - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
 
-# Guide Study
+# Study Guides
 - [Mozilla](https://developer.mozilla.org/es/)
 - [W3School](https://www.w3schools.com/)
+
+# Images
+- [Unsplash](https://unsplash.com/)
+# Icon
+- [FontAwesome](https://fontawesome.com/)
 
 MIT License
 
