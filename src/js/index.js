@@ -65,3 +65,51 @@ function person (name = "Elizabeth") {
 
  person(); 
  person("Alma"); 
+
+  // Prototype / class (palabra reservada)
+ class Inventario {
+
+      constructor(nombre) {
+        this.nombre = nombre; 
+        this.articulos = [];  
+      }
+
+      getNombre() {
+        console.log(this.nombre); 
+      }
+
+      add(articulos, cantidad) {
+        console.log(this.articulos[articulos] = cantidad); 
+      }
+
+      cantidad(articulos) {
+        console.log(this.articulos[articulos]); 
+      }
+  }
+
+  let libros = new Inventario(`Libros`); 
+  libros.getNombre() 
+  libros.add("Aprendiendo Javascript", 5); 
+  libros.cantidad("Aprendiendo Javascript"); 
+
+class Personal {
+  constructor(sexo, name) {
+   this.sexo = sexo; 
+   this.name = name; 
+  }
+  
+  getsexo() {
+    console.log(this.sexo); 
+  }
+
+  add(name) {
+    console.log(name)
+  }
+}
+
+let personal = new Personal ("Ella es, sexo Femenino"); 
+personal.getsexo();
+personal.add("Luisa Velázquez"); 
+
+
+             // CLOSURES

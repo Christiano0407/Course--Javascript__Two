@@ -40,6 +40,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [GatsbyJs](https://www.gatsbyjs.com/)
 - [GoHugo](https://gohugo.io/)
 - [NodeJs](https://nodejs.org/en/)
+- [Ghost](https://ghost.org/)
 
 # CDN 
 - [CDNjs](https://cdnjs.com/)
