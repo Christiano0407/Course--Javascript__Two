@@ -111,5 +111,36 @@ let personal = new Personal ("Ella es, sexo Femenino");
 personal.getsexo();
 personal.add("Luisa Velázquez"); 
 
+                  // THIS (Objeto == Contexto o referencia)
 
-             // CLOSURES
+             // CLOSURES LET / CONST / VAR
+// Funciones ejecutándose dentro de otras funciones
+
+const myPlay = (function() {
+
+     let _counter = 0; 
+
+     function incremento() {
+       return _counter++; 
+     }
+
+     function decremento() {
+       return _counter--; 
+     }
+
+     function valor() {
+       return _counter; 
+     } 
+
+     return  {
+       incremento, 
+       decremento, 
+       valor
+     }; 
+
+})();
+
+console.log(myPlay.incremento());  
+console.log(myPlay.valor()); 
+console.log(myPlay.incremento()); 
+console.log(myPlay.valor()); 
