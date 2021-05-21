@@ -1,0 +1,24 @@
+{
+  "name": "course--javascript__two",
+  "version": "1.0.0",
+  "description": "Javascript course and practice. Frameworks and nodeJs",
+  "main": "src/js/index.js",
+  "scripts": {
+    "vanilla": "node src/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Course--Javascript__Two.git"
+  },
+  "keywords": [
+    "Javascript",
+    "nodeJs",
+    "frameworks"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Course--Javascript__Two/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Course--Javascript__Two#readme"
+}
