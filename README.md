@@ -28,6 +28,24 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [James Q Quick](https://www.youtube.com/c/JamesQQuick)
 - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
 
+# Tools Javascript and Frameworks
+- [RunJs](https://runjs.app/)
+- [Gsap](https://greensock.com/gsap/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [Webpack](https://webpack.js.org/)
+- [esbuild](https://esbuild.github.io/)
+- [Typescript](https://www.typescriptlang.org/)
+- [ReactJs](https://es.reactjs.org/)
+- [NextJs](https://nextjs.org/)
+- [GatsbyJs](https://www.gatsbyjs.com/)
+- [GoHugo](https://gohugo.io/)
+- [NodeJs](https://nodejs.org/en/)
+
+# CDN 
+- [CDNjs](https://cdnjs.com/)
+
+# NPM 
+- [NPM](https://www.npmjs.com/)
 # Study Guides
 - [Mozilla](https://developer.mozilla.org/es/)
 - [W3School](https://www.w3schools.com/)
