@@ -79,7 +79,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [PreviousElementSibling](https://developer.mozilla.org/es/docs/Web/API/Element/previousElementSibling)
 - [NextElementSibling](https://developer.mozilla.org/es/docs/Web/API/Element/nextElementSibling)
-
+- [ChildNodes](https://developer.mozilla.org/es/docs/Web/API/Node/childNodes)
 - [Node_js / NodosJS](https://nodejs.org/es/)
 
 # MIT LICENSE

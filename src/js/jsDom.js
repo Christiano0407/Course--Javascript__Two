@@ -116,3 +116,11 @@ console.log(last.previousElementSibling.innerHTML);
 /* Dato: Si no tiene hermanos / padre / abuelo == null */
 
          /* =====  Nodos ===== */
+const elem = document.getElementById(`course`); 
+console.log(elem.childElementCount); 
+/*Nodos ==> Cantidad de elementos que tiene un elemento */
+/*La propiedad de solo lectura Node.childNodes  devuelve una colección de hijos nodes del elemento dado donde el primer nodo hijo es asignado un índice 0. */
+console.log(elem.childNodes.length); 
+console.log(elem.childNodes);  
+
+
