@@ -4,7 +4,8 @@
   "description": "Javascript course and practice. Frameworks and nodeJs",
   "main": "src/js/index.js",
   "scripts": {
-    "vanilla": "node src/js/index.js"
+    "vanilla": "node src/js/index.js", 
+    "dom": "node src/js/jsDom.js"
   },
   "repository": {
     "type": "git",
