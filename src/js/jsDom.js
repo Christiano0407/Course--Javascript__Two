@@ -37,3 +37,20 @@ console.log(item);
 
 
 /*   Obtener Elementos por Etiquetas */
+/* Atributo: tagName */
+
+const items = document.getElementsByTagName(`li`); 
+for(var i = 0; i < items.length; i++) {
+    let elements = items[i]; 
+    console.log(elements); 
+}
+console.log(items); 
+
+/*  Cambiar el estilo */
+/* const itemss = document.getElementsByTagName(`li`);  */
+/* for( let i = 0; i < itemss.length; i++) { */
+/*     if(i % 2  == 0) { */
+/*         let elementss  = itemss[i];  */
+/*         elementss.style.background = `f2f2f2`;  */
+/*     } */
+/* } */

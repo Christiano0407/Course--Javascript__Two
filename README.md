@@ -59,12 +59,20 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 # Curso Javascript y el DOM
 
 - [Código Facilito](https://codigofacilito.com/usuarios/mis_cursos)
+
 > Objeto Window
 - Permite realizar acciones sobre la ventana.
 - [Js-Mozilla](https://developer.mozilla.org/es/docs/Web/API/Window)
 - [W3School](https://www.w3schools.com/js/js_window.asp)
 > Object DOM
 - [Dom-Js](https://www.w3schools.com/js/js_htmldom_document.asp)
+
+> Atributos Javascipt:
+
+- [Atrubutos-Js](https://developer.mozilla.org/es/docs/Web/API/Element/attributes)
+- [getElementById](https://developer.mozilla.org/es/docs/Web/API/Document/getElementById)
+- [getElementByClassName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByClassName)
+- [tagName](https://developer.mozilla.org/es/docs/Web/API/Element/tagName)
 # MIT LICENSE
 
  > MIT License:
