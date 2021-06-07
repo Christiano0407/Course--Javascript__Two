@@ -54,3 +54,35 @@ console.log(items);
 /*         elementss.style.background = `f2f2f2`;  */
 /*     } */
 /* } */
+
+    /* ===== Obtener Elementos por CSS ===== */
+
+/* 1) Atributo: querySelector */
+/* ==> (.) ==> Para class */
+/* ==> (#) ==> Para Id  */
+/* Elementos ==> (li) */
+
+/* 2) Atributo ==>  querySelectorAll ==> retorna a una lista / todos los MediaElementAudioSourceNode */
+
+/* 3) Atributo ==> querySelectorAll(`li:nth-child(add)`) ==> Permite tomar todos los atributos */
+
+
+           /* ===== Elementos Hijo ===== */
+
+const lista = document.querySelector(`ul`); 
+
+/*Sus elementos hijos son: li*/
+console.log(lista.childElementCount); 
+console.log(lista.children); 
+/* Iterar */
+console.log(lista.childElementCount); 
+  
+for (let i = 0; i < lista.children.length; i++) {
+    console.log(lista.children[i]); 
+  }
+
+/*Primer Hijo */
+console.log(lista.firstElementChild.innerHTML);
+console.log(lista.lastElementChild) 
+
+   /* =====  Elemento Hermano ===== */
