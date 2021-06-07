@@ -81,6 +81,15 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [NextElementSibling](https://developer.mozilla.org/es/docs/Web/API/Element/nextElementSibling)
 - [ChildNodes](https://developer.mozilla.org/es/docs/Web/API/Node/childNodes)
 - [Node_js / NodosJS](https://nodejs.org/es/)
+- [InnerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
+- [text_Content](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
+- [Method-js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Method_definitions)
+- [Methods-w3](https://www.w3schools.com/js/js_object_methods.asp#:~:text=JavaScript%20methods%20are%20actions%20that,property%20containing%20a%20function%20definition.&text=Methods%20are%20functions%20stored%20as%20object%20properties.)
+- [Dom-Intro_js](https://www.w3schools.com/js/js_htmldom.asp)
+
+> EVENTS JS
+- [Eventsjs](https://www.w3schools.com/js/js_events.asp)
+- [Eventsjs-2](https://developer.mozilla.org/es/docs/Web/Events)
 
 # MIT LICENSE
 
