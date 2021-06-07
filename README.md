@@ -73,6 +73,15 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [getElementById](https://developer.mozilla.org/es/docs/Web/API/Document/getElementById)
 - [getElementByClassName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByClassName)
 - [tagName](https://developer.mozilla.org/es/docs/Web/API/Element/tagName)
+- [element-child](https://developer.mozilla.org/en-US/docs/Web/API/Element/children)
+- [firstElementChild](https://developer.mozilla.org/en-US/docs/Web/API/Element/firstElementChild)
+- [lastElementChild](https://developer.mozilla.org/en-US/docs/Web/API/Element/lastElementChild)
+- [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+- [PreviousElementSibling](https://developer.mozilla.org/es/docs/Web/API/Element/previousElementSibling)
+- [NextElementSibling](https://developer.mozilla.org/es/docs/Web/API/Element/nextElementSibling)
+
+- [Node_js / NodosJS](https://nodejs.org/es/)
+
 # MIT LICENSE
 
  > MIT License:
