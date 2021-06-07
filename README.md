@@ -101,6 +101,11 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [DocumentLoaded](https://developer.mozilla.org/es/docs/Web/API/Window/DOMContentLoaded_event)
 - [EventBubbles](https://developer.mozilla.org/es/docs/Web/API/Event/bubbles)
 
+> Modificar el DOM
+
+- [Modificar-Dom](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-modification/a/summary-dom-modification-techniques)
+- [article-Dom](https://www.digitalocean.com/community/tutorials/como-modificar-atributos-clases-y-estilos-en-el-dom-es)
+
 # MIT LICENSE
 
  > MIT License:
