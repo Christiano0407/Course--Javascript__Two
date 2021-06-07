@@ -90,6 +90,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > EVENTS JS
 - [Eventsjs](https://www.w3schools.com/js/js_events.asp)
 - [Eventsjs-2](https://developer.mozilla.org/es/docs/Web/Events)
+- [AddEventListener](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
+- [AddEvent2](https://www.w3schools.com/jsref/met_document_addeventlistener.asp)
+- [Event_target](https://developer.mozilla.org/es/docs/Web/API/Event/target)
 
 # MIT LICENSE
 
