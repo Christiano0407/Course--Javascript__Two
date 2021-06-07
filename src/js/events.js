@@ -54,3 +54,14 @@ function remove(e) {
 /* Parámetro  ==> (e) ==== */
 
      /*  =====  Evento Mouse ===== */
+
+     /*  =====  SetTimeOut ===== */
+
+     /*  =====  Evento Teclado ===== */
+
+     /*  =====  Evento submit ===== */
+     /*  =====  Cambio de valor ===== */
+     /*  =====  Document Loaded ===== */
+     /*  =====  Evento bubbling ===== */
+     /*  =====  Evento prpagación de eventos===== */
+     /*  =====  Evento Detener propagación ===== */
