@@ -93,6 +93,13 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [AddEventListener](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
 - [AddEvent2](https://www.w3schools.com/jsref/met_document_addeventlistener.asp)
 - [Event_target](https://developer.mozilla.org/es/docs/Web/API/Event/target)
+- [MouseEvent](https://developer.mozilla.org/es/docs/Web/API/MouseEvent)
+- [setTimeOut](https://www.w3schools.com/jsreF/met_win_settimeout.asp)
+- [Evento-Teclado / KeyboardEvent](https://developer.mozilla.org/es/docs/Web/API/KeyboardEvent)
+- [event-submit](https://www.w3schools.com/jsref/event_onsubmit.asp)
+- [Event-input](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/input_event)
+- [DocumentLoaded](https://developer.mozilla.org/es/docs/Web/API/Window/DOMContentLoaded_event)
+- [EventBubbles](https://developer.mozilla.org/es/docs/Web/API/Event/bubbles)
 
 # MIT LICENSE
 
