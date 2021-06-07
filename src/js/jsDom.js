@@ -85,4 +85,34 @@ for (let i = 0; i < lista.children.length; i++) {
 console.log(lista.firstElementChild.innerHTML);
 console.log(lista.lastElementChild) 
 
-   /* =====  Elemento Hermano ===== */
+        /* =====  Elemento Hermano ===== */
+
+ /* Elemento Padre / Atributo ==> parentElement */
+const father = document.querySelector(`div.row > ul.list-group > li`); 
+console.log(father.innerHTML); 
+console.log(father.parentElement); 
+
+  /*Elemento Abuelo */
+const grandFather = document.querySelector(`div.row > ul.list-group > li`); 
+console.log(grandFather.innerHTML); 
+console.log(grandFather.parentElement.parentElement); 
+       
+  /*Elementos hermanos */
+/* atributo: .nextElementSibling */
+const brothers = document.querySelector(`div.row > ul.list-group > li`); 
+console.log(brothers.innerHTML); 
+console.log(brothers.nextElementSibling); 
+console.log(brothers.nextElementSibling.innerHTML); 
+console.log(brothers.nextElementSibling.nextElementSibling); 
+console.log(brothers.nextElementSibling.nextElementSibling.innerHTML);
+
+/*   previo */
+    /*  atributo: .previousElementSibling */
+const last = document.getElementById(`last_element`); 
+console.log(last); 
+console.log(last.previousElementSibling); 
+console.log(last.previousElementSibling.innerHTML); 
+
+/* Dato: Si no tiene hermanos / padre / abuelo == null */
+
+         /* =====  Nodos ===== */
