@@ -142,6 +142,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 
 > API 
 - [API](https://www.w3schools.com/js/js_api_intro.asp)
+- [Api-Simpsons](https://thesimpsonsquoteapi.glitch.me/)
 
 # MIT LICENSE
 

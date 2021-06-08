@@ -32,6 +32,15 @@ main {
     width: 50%;
   /*   height: 100vh; */
 }
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 p {
     width: 100%;
     font-size: 16px;
