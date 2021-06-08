@@ -115,6 +115,30 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Soy Dalto](https://www.youtube.com/watch?v=xOinGb2MZSk&t=37s)
 - [BettaTech](https://www.youtube.com/channel/UCSf6S_PAhXsqGMTPDiKgdRg)
 
+
+## Guides
+> Window
+
+- [Window-js](https://developer.mozilla.org/es/docs/Web/API/Window)
+
+> Screen
+- [Screen-js](https://developer.mozilla.org/es/docs/Web/API/Screen)
+- [Object-js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+- [Screen-left](https://developer.mozilla.org/en-US/docs/Web/API/Screen/left)
+- [Screen-Top](https://developer.mozilla.org/en-US/docs/Web/API/Window/screenTop)
+- [Scroll-js](https://developer.mozilla.org/es/docs/Web/API/Window/scroll)
+- [ScrollX-js](https://developer.mozilla.org/es/docs/Web/API/Window/scrollX)
+- [ScrollBy](https://developer.mozilla.org/es/docs/Web/API/Window/scrollBy)
+- [ScrollByLines](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByLines)
+- [scrollby Pages](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByPages)
+- [ScrollY-js](https://developer.mozilla.org/es/docs/Web/API/Window/scrollY)
+
+> Event
+- [resize-event](https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event)
+
+> API 
+- [API](https://www.w3schools.com/js/js_api_intro.asp)
+
 # MIT LICENSE
 
  > MIT License:
