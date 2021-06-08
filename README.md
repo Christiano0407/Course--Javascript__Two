@@ -100,11 +100,14 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Event-input](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/input_event)
 - [DocumentLoaded](https://developer.mozilla.org/es/docs/Web/API/Window/DOMContentLoaded_event)
 - [EventBubbles](https://developer.mozilla.org/es/docs/Web/API/Event/bubbles)
+- [Event-preventDefault](https://developer.mozilla.org/es/docs/Web/API/Event/preventDefault)
+- [event-change](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/change_event)
 
 > Modificar el DOM
 
 - [Modificar-Dom](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-modification/a/summary-dom-modification-techniques)
 - [article-Dom](https://www.digitalocean.com/community/tutorials/como-modificar-atributos-clases-y-estilos-en-el-dom-es)
+- [Value](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
 
 # MIT LICENSE
 

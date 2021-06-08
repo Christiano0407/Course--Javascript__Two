@@ -60,7 +60,24 @@ function remove(e) {
      /*  =====  Evento Teclado ===== */
 
      /*  =====  Evento submit ===== */
-     /*  =====  Cambio de valor ===== */
+/* recomendable el evento para el formulario */
+   const form = document.getElementById(`course-form`); 
+   //console.log(form); 
+   form.addEventListener(`submit`, function(e) {
+
+        e.preventDefault(); //Previo de mandar datos a servidor.
+
+        let title = document.getElementById(`title-form`).value;  // ==> toma el valor
+        let suscription = document.getElementById(`suscription-form`).value; // value
+  
+        console.log(title); 
+        console.log(suscription); 
+    }) 
+
+     /*  =====  Cambio de valor / CHange===== */
+
+     
+
      /*  =====  Document Loaded ===== */
      /*  =====  Evento bubbling ===== */
      /*  =====  Evento prpagación de eventos===== */
