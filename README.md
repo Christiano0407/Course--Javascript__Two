@@ -56,7 +56,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 # Icon
 - [FontAwesome](https://fontawesome.com/)
 
-# Curso Javascript y el DOM
+# Curso Javascript y el DOM / Código Facilito
 
 - [Código Facilito](https://codigofacilito.com/usuarios/mis_cursos)
 
@@ -109,6 +109,11 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Modificar-Dom](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-modification/a/summary-dom-modification-techniques)
 - [article-Dom](https://www.digitalocean.com/community/tutorials/como-modificar-atributos-clases-y-estilos-en-el-dom-es)
 - [Value](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+
+# Curso Javascript Nivel Mind
+
+- [Soy Dalto](https://www.youtube.com/watch?v=xOinGb2MZSk&t=37s)
+- [BettaTech](https://www.youtube.com/channel/UCSf6S_PAhXsqGMTPDiKgdRg)
 
 # MIT LICENSE
 
