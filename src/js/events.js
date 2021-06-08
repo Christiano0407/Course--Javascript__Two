@@ -75,10 +75,19 @@ function remove(e) {
     }) 
 
      /*  =====  Cambio de valor / CHange===== */
+//Cuando un Input, ha cambiado su valor
+const checkbox = document.getElementById(`checkbox`); 
 
-     
+checkbox.addEventListener(`change`, function() {
+    console.log(`Cambio de valor`); 
+})
 
      /*  =====  Document Loaded ===== */
+
+
+
      /*  =====  Evento bubbling ===== */
-     /*  =====  Evento prpagación de eventos===== */
+//Propagación de eventos
+
+
      /*  =====  Evento Detener propagación ===== */

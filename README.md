@@ -102,6 +102,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [EventBubbles](https://developer.mozilla.org/es/docs/Web/API/Event/bubbles)
 - [Event-preventDefault](https://developer.mozilla.org/es/docs/Web/API/Event/preventDefault)
 - [event-change](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/change_event)
+- [event-stopPropagation](https://developer.mozilla.org/es/docs/Web/API/Event/stopPropagation)
 
 > Modificar el DOM
 
