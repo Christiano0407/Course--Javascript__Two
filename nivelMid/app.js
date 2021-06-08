@@ -11,6 +11,27 @@ console.log("Hello!");
 //confirm() ==> confirmar. 
 
 //screen
-const screen = window.screen; 
-console.log(screen.colorDepth); 
-document.write(screen); 
+/* const screen = window.screen;  */
+/* console.log(screen.colorDepth);  */
+/* document.write(screen);  */
+
+              /* ===== Location ===== */
+//window.location.href
+const href = window.location.href; 
+//document.write(href); 
+console.log(href); 
+
+//window.location.hostname
+//window.location.pathname
+//window.location.protocol
+//window.location.assign()
+
+/*  ====  Alto y Ancho  ===== */
+
+/* let alto = window.screen.availHeight;  */
+/* let ancho = window.screen.availWidth;  */
+/*  */
+/* tamaño = confirm(`Alto: ${alto}, ancho: ${ancho}`);  */
+/*  */
+
+                  /* ===== Events  ===== */

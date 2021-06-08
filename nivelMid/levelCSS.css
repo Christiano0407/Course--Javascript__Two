@@ -19,6 +19,37 @@ img {
     background-position: center;
 }
 body {
+   /*  width: 100%; */
+   /*  height: 100vh; */
+}
+header {
     width: 100%;
-    height: 100%;
+    height: 15vh;
+    background-color: black;
+}
+main {
+    margin: 0 auto;
+    width: 50%;
+  /*   height: 100vh; */
+}
+p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 1rem;
+    letter-spacing: .1px;
+    color: black;
+}
+aside {
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background: black;
+    margin-top: 2rem;
 }
