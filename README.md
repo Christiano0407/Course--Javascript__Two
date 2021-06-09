@@ -143,7 +143,17 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > API 
 - [API](https://www.w3schools.com/js/js_api_intro.asp)
 - [Api-Simpsons](https://thesimpsonsquoteapi.glitch.me/)
+- [Red-Hat_API](https://www.redhat.com/es/topics/api)
 
+## Create Blog with Javascript / Tips:
+- [JamstackDev](https://jamstackthemes.dev/#archetype=portfolio)
+- [JamstackDevThemes](https://jamstackthemes.dev/archetype/portfolio/)
+- [JamstackDevTypes](https://jamstackthemes.dev/archetype/single-page/)
+- [Jamstack](https://jamstack.wtf/)
+- [StackBit](https://www.stackbit.com/?ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb)
+- [Gatsby-Blog](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog)
+- [Netlify](https://www.netlify.com/)
+- [Awwards](https://www.awwwards.com/)
 # MIT LICENSE
 
  > MIT License:
