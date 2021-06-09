@@ -103,8 +103,17 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Event-preventDefault](https://developer.mozilla.org/es/docs/Web/API/Event/preventDefault)
 - [event-change](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/change_event)
 - [event-stopPropagation](https://developer.mozilla.org/es/docs/Web/API/Event/stopPropagation)
+- [event-bubbles](https://developer.mozilla.org/es/docs/Web/API/Event/bubbles)
+- [StopPropagation](https://developer.mozilla.org/es/docs/Web/API/Event/stopPropagation)
+
+> Event Active: 
+- [EventDOM-Active01](https://stackoverflow.com/questions/11828894/html-element-on-active-event)
+- [EventDOM-Active02](https://developer.mozilla.org/en-US/docs/Web/Events)
+- [EventDOM-Active03](https://developer.mozilla.org/en-US/docs/Web/API/Element/DOMActivate_event)
 
 > Modificar el DOM
+
+- [IntroductionDOM_JS](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
 
 - [Modificar-Dom](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-modification/a/summary-dom-modification-techniques)
 - [article-Dom](https://www.digitalocean.com/community/tutorials/como-modificar-atributos-clases-y-estilos-en-el-dom-es)

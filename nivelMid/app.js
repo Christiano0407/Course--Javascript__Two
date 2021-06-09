@@ -75,12 +75,50 @@ buttonTwo.addEventListener("click", (e) => {
    console.log(e.target); 
 }); 
 
-              /* =====  ===== */
+              /* ===== Double Click ===== */
+const threeOn = document.getElementById(`buttonThree`); 
+
+threeOn.addEventListener(`dblclick`, up);
+
+function up() {
+    //console.log(e);
+    //document.write("Hola"); 
+    alert("Tres"); 
+}
+
+              /* ===== Mouse Over ===== */
+
+const four = document.getElementById(`four`); 
+
+four.addEventListener(`mouseover`, mouse); 
+
+function mouse (e) {
+    console.log("Ratón"); 
+}
+
+              /* ===== Exercise 01===== */
+const five = document.getElementById(`five`); 
+
+five.addEventListener("click", life);
+
+function life(e) {
+    console.log("Desarrollo"); 
+
+    let heading = document.createElement("h1"); 
+    let heading_text = document.createTextNode("Desarrollo");
+
+    heading.appendChild(heading_text); 
+
+    document.body.appendChild(heading); 
+
+     //button.removeEventListener("click", push); 
+    five.removeEventListener("click", life); 
+}
 
               /* =====  ===== */
 
-              /* =====  ===== */
+             /* =====  ===== */
 
-              /* =====  ===== */
-
+             /* =====  ===== */
+             
              /* =====  ===== */
