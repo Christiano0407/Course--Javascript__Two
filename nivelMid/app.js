@@ -97,6 +97,7 @@ function mouse (e) {
 }
 
 //MouseOut ==> Evento fuera del elemento. 
+//contextmenu ==> ocurre con un click en el botón derecho ==> Para Abrir un menú ===> Dentro del elemento. 
               /* ===== Exercise 01===== */
 const five = document.getElementById(`five`); 
 
@@ -119,7 +120,7 @@ function life(e) {
     five.removeEventListener("click", life); 
 }
 
-              /* =====  ===== */
+              /* ===== Eventos de Teclado ===== */
 
              /* =====  ===== */
 

@@ -105,6 +105,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [event-stopPropagation](https://developer.mozilla.org/es/docs/Web/API/Event/stopPropagation)
 - [event-bubbles](https://developer.mozilla.org/es/docs/Web/API/Event/bubbles)
 - [StopPropagation](https://developer.mozilla.org/es/docs/Web/API/Event/stopPropagation)
+- [Event-teclado](https://ikastaroak.birt.eus/edu/argitalpen/backupa/20200331/1920k/es/DAW/DWEC/DWEC06/es_DAW_DWEC06_Contenidos/website_232_eventos_del_teclado_en_javascript.html)
 
 > Event Active: 
 - [EventDOM-Active01](https://stackoverflow.com/questions/11828894/html-element-on-active-event)
