@@ -64,3 +64,23 @@ button.style.color = `#fff`;
 /* ButtonTwo.style.color = `#fff`;   */
 
                 /* ===== Object Event ===== */
+
+// Event ==> "e".
+// e.target
+// this
+
+const buttonTwo = document.getElementById(`buttonTwo`); 
+
+buttonTwo.addEventListener("click", (e) => {
+   console.log(e.target); 
+}); 
+
+              /* =====  ===== */
+
+              /* =====  ===== */
+
+              /* =====  ===== */
+
+              /* =====  ===== */
+
+             /* =====  ===== */
