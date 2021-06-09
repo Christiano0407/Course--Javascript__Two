@@ -118,6 +118,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Modificar-Dom](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-modification/a/summary-dom-modification-techniques)
 - [article-Dom](https://www.digitalocean.com/community/tutorials/como-modificar-atributos-clases-y-estilos-en-el-dom-es)
 - [Value](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+- [element-style](https://developer.mozilla.org/es/docs/orphaned/Web/API/ElementCSSInlineStyle/style)
+- [Create-element-js](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
+- [CreateText-Node](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
 
 # Curso Javascript Nivel Mind
 

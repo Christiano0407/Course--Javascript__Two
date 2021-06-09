@@ -96,6 +96,7 @@ function mouse (e) {
     console.log("Ratón"); 
 }
 
+//MouseOut ==> Evento fuera del elemento. 
               /* ===== Exercise 01===== */
 const five = document.getElementById(`five`); 
 
@@ -106,6 +107,9 @@ function life(e) {
 
     let heading = document.createElement("h1"); 
     let heading_text = document.createTextNode("Desarrollo");
+    
+    heading.style.color = "#f72585"; 
+    heading.style.fontSize = "30px"; 
 
     heading.appendChild(heading_text); 
 
