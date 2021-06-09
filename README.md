@@ -136,6 +136,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [ScrollByLines](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByLines)
 - [scrollby Pages](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByPages)
 - [ScrollY-js](https://developer.mozilla.org/es/docs/Web/API/Window/scrollY)
+- [Element-Style](https://developer.mozilla.org/es/docs/Web/API/ElementCSSInlineStyle/style)
 
 > Event
 - [resize-event](https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event)

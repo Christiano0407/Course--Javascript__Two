@@ -35,3 +35,32 @@ console.log(href);
 /*  */
 
                   /* ===== Events  ===== */
+
+                  /* ===== Click ==> Dos formas: ===== */
+
+// A) Forma:
+const button = document.getElementById(`button`); 
+
+button.addEventListener("click", push); 
+
+function push () {
+    
+    console.log(`Es un botón`); 
+
+    // Quitar el mismo evento: 
+    //button.removeEventListener("click", push); 
+}
+button.style.background = "#000"; 
+button.style.color = `#fff`; 
+
+// B) Forma
+
+/* const ButtonTwo = document.getElementById(`buttonTwo`);  */
+/*  */
+/* ButtonTwo.onclick = () => { */
+/*     console.log("Soy el segundo");  */
+/* } */
+/* ButtonTwo.style.background = `#000`;  */
+/* ButtonTwo.style.color = `#fff`;   */
+
+                /* ===== Object Event ===== */
