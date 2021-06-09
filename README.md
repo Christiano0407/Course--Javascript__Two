@@ -106,6 +106,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [event-bubbles](https://developer.mozilla.org/es/docs/Web/API/Event/bubbles)
 - [StopPropagation](https://developer.mozilla.org/es/docs/Web/API/Event/stopPropagation)
 - [Event-teclado](https://ikastaroak.birt.eus/edu/argitalpen/backupa/20200331/1920k/es/DAW/DWEC/DWEC06/es_DAW_DWEC06_Contenidos/website_232_eventos_del_teclado_en_javascript.html)
+- [Event-Interface](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
 > Event Active: 
 - [EventDOM-Active01](https://stackoverflow.com/questions/11828894/html-element-on-active-event)
@@ -154,10 +155,14 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > Event
 - [resize-event](https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event)
 
-> API 
+## API 
+
+> API: Aplication Programming Interface / Interfaz de Programación de Aplicación
 - [API](https://www.w3schools.com/js/js_api_intro.asp)
 - [Api-Simpsons](https://thesimpsonsquoteapi.glitch.me/)
 - [Red-Hat_API](https://www.redhat.com/es/topics/api)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [XMLHttpR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
 ## Create Blog with Javascript / Tips:
 - [JamstackDev](https://jamstackthemes.dev/#archetype=portfolio)

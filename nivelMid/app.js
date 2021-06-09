@@ -121,9 +121,39 @@ function life(e) {
 }
 
               /* ===== Eventos de Teclado ===== */
+//keydown ==> Ocurre cuando una tecla se deja de presionar.
+//keypress ==> Ocurre cuando una tecla se presiona. 
+//keyup ==> Ocurre después de que, los dos eventos hayan ocurrido. 
 
-             /* =====  ===== */
+const keyboard = document.getElementById(`keyboard`); 
 
-             /* =====  ===== */
+keyboard.addEventListener("keyup", (e) => {
+     console.log("Up tecla presionada"); 
+}); 
+
+keyboard.addEventListener("keypress", (e) => {
+     console.log("Press nueva tecla!"); 
+}); 
+
+keyboard.addEventListener("keydown", (e) => {
+    console.log("Down bajo Tecl!"); 
+}); 
+
+
+             /* =====Eventos de Interfaz  ===== */
+//abort:
+//error:
+//load:
+//beforeunload:
+//unload:
+//resize
+//scroll
+//select
+
+             /* ===== Eventos Timers (Temporizadores) ===== */
+//setTimeout()
+//setInterval()
+//clearTimeout()
+//clearInterval()
              
              /* =====  ===== */

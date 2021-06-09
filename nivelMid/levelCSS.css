@@ -71,3 +71,11 @@ footer {
     border: none;
     outline: none;
 }
+.keyboard {
+    padding: 1rem;
+    color: rgb(148, 144, 144);
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 1rem;
+    outline: none;
+}
