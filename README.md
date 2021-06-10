@@ -158,9 +158,14 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Element-Attribute](https://developer.mozilla.org/es/docs/Web/API/Element/setAttribute)
 - [Event-load / onload](https://developer.mozilla.org/es/docs/Web/API/GlobalEventHandlers/onload)
 
-
 > Event Resize
 - [resize-event](https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event)
+
+> Event SetTimeout / Time
+- [SetTimeout](https://www.w3schools.com/jsreF/met_win_settimeout.asp)
+- [SetInterval](https://developer.mozilla.org/es/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
+- [clearTimeout](https://developer.mozilla.org/es/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout)
+- [clearInterval](https://developer.mozilla.org/es/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 
 > Animation / Request Animation
 - [Animation/Request/js](https://www.html5rocks.com/en/tutorials/speed/animations/)
