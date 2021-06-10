@@ -159,9 +159,29 @@ imgError.addEventListener(`click`, () => {
 //load:
 //beforeunload:
 //unload:
+ /*  Carga */
 //resize
+/* los diferentes tamaños de pantalla */
+/* window.addEventListener(`resize`, () => { */
+/*     console.log("Cambiando...");  */
+/* }) */
+/*  */
+
 //scroll
+
 //select
+const inputs = document.querySelector(`.inputs`);
+const container = document.querySelector(`.container`); 
+// Lo va a colocar en la posición de event-log.
+
+inputs.addEventListener(`select`, (e) => {
+    let start =  e.target.selectionStart;
+    let end = e.target.selectionEnd;
+    
+    let textoCompleto = inputs.value; 
+    
+    container.innerHTML = textoCompleto.substring(start, end); 
+})
 
              /* ===== Eventos Timers (Temporizadores) ===== */
 //setTimeout()

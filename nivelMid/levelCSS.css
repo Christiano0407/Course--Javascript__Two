@@ -87,3 +87,13 @@ footer {
  padding: 1rem;
  margin-bottom: 1rem;
 }
+.event-log {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputs {
+    padding: 1rem;
+    outline: none;
+    
+}

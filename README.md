@@ -155,10 +155,16 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [scrollby Pages](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByPages)
 - [ScrollY-js](https://developer.mozilla.org/es/docs/Web/API/Window/scrollY)
 - [Element-Style](https://developer.mozilla.org/es/docs/Web/API/ElementCSSInlineStyle/style)
+- [Element-Attribute](https://developer.mozilla.org/es/docs/Web/API/Element/setAttribute)
+- [Event-load / onload](https://developer.mozilla.org/es/docs/Web/API/GlobalEventHandlers/onload)
+
 
 > Event Resize
 - [resize-event](https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event)
 
+> Animation / Request Animation
+- [Animation/Request/js](https://www.html5rocks.com/en/tutorials/speed/animations/)
+- [GSAP](https://greensock.com/gsap/)
 ## API 
 
 > API: Aplication Programming Interface / Interfaz de Programación de Aplicación
