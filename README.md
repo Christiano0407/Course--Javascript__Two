@@ -188,10 +188,25 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Gatsby-Blog](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog)
 - [Netlify](https://www.netlify.com/)
 - [Awwards](https://www.awwwards.com/)
+
+## Chalenge Programming / Tools Practice / References: 
+- [30SecondsOfCode](https://www.30secondsofcode.org/)
+- [Freecodecamp](https://www.freecodecamp.org/)
+- [Awwards](https://www.awwwards.com/)
+- [FrontendMentor](https://www.frontendmentor.io/challenges)
+- [Proyectos/Leonidas](https://leonidasesteban.com/proyectos/todos)
+- [Los apuntes de Majo](https://losapuntesdemajo.vercel.app/)
+- [GNDX/óscar Barajas](https://gndx.dev/)
+- [Mozilla](https://developer.mozilla.org/es/)
+- [W3School](https://www.w3schools.com/)
+- [Dev_to](https://dev.to/)
+- [Web_dev](https://web.dev/)
+- [StackOverflow](https://es.stackoverflow.com/)
+- [Github-Topics](https://github.com/topics)
+- [JamstackDev](https://jamstackthemes.dev/#archetype=portfolio)
 # MIT LICENSE
 
  > MIT License:
-
 - [Choosealicense](https://choosealicense.com/)
 - [MIT-License](https://choosealicense.com/licenses/mit/)
 - [License-Categories](https://www.youtube.com/watch?v=eWtjgfzpt6Y)
