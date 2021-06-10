@@ -97,3 +97,8 @@ footer {
     outline: none;
     
 }
+
+.time {
+    margin-top: 2rem;
+    color: black;
+}

@@ -184,8 +184,44 @@ inputs.addEventListener(`select`, (e) => {
 })
 
              /* ===== Eventos Timers (Temporizadores) ===== */
-//setTimeout()
-//setInterval()
+//setTimeout() ==> Tarda el tiempo que le pongas para aparecer.
+//A)
+ /* const time = document.getElementById(`time`);  */
+ /*   setTimeout(function(){ */
+ /*       time.value = document.write("hOLA") */
+ /*   }, 1000);  */
+//B)
+/* const times = () => { */
+/*     document.write("Es Tiempo!") */
+/* } */
+/* setTimeout(times, 1000);  */
+
+// Clock Create: 
+//1)
+/* function startTime() { */
+/*  let today = new Date();  */
+/*  let h = today.getHours();  */
+/*  let m = today.getMinutes();  */
+/*  let s = today.getSeconds();  */
+/*  */
+/*  // add a zero in front of numbers <10 */
+/*  */
+/*  m = checkTime(m);  */
+/*  s = checkTime(s);  */
+/*  document.getElementById(`time`).innerHTML = h + ":"+ m + ":"+ s;  */
+/*  t = setTimeout(function() { */
+/*      startTime() */
+/*  }, 500);  */
+/* } */
+/*  */
+/* function checkTime(i) { */
+/*   if(i<10) { */
+/*       i = "0" + i;  */
+/*   } */
+/*   return i;  */
+/* } */
+
+//setInterval() ==> Cada intervalo de tiempo. 
 //clearTimeout()
 //clearInterval()
              
