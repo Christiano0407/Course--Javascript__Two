@@ -79,3 +79,11 @@ footer {
     margin-top: 1rem;
     outline: none;
 }
+
+.controls {
+    margin-top: 2rem;
+}
+#img-error {
+ padding: 1rem;
+ margin-bottom: 1rem;
+}

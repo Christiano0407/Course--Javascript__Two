@@ -143,6 +143,19 @@ keyboard.addEventListener("keydown", (e) => {
              /* =====Eventos de Interfaz  ===== */
 //abort:
 //error:
+const log = document.querySelector(`.event-log-contents`); 
+
+const badImg = document.querySelector(`.bad-img`);
+badImg.addEventListener(`error`, (e) => {
+    log.textContent = log.textContent + `${e.type}: Loading Img\n`; 
+    console.log(e); 
+}); 
+
+const imgError = document.querySelector(`#img-error`);
+imgError.addEventListener(`click`, () => {
+    badImg.setAttribute(`src`, `i-dont-exist`); 
+}); 
+
 //load:
 //beforeunload:
 //unload:
