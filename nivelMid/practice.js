@@ -13,10 +13,11 @@ button.addEventListener(`click`, (e) => {
   let error = validarCampos(); 
   if(error[0]) {
     resultado.innerHTML = error[1]; 
-    resultado.classList.add(`.red`); 
+    resultado.classList.add(`red`); 
   } else {
     resultado.innerHTML = "Solicitud enviada correctamente"; 
-    resultado.classList.add("green");     
+    resultado.classList.add("green");  
+    resultado.classList.remove("red")   
   }
 }); 
 
@@ -36,6 +37,11 @@ const validarCampos = () => {
              email.value.indexOf(".") == -1) {
                  error[0] = true; 
                  error[1] = "El e-mail es inválido"; 
+                 return error; 
+    }else if(matter.value < 4 || 
+             matter.value > 40 ) {
+                 error[0] = true; 
+                 error[1] = "La materia no existe"; 
              }
     error[0] = false; 
     return error; 
