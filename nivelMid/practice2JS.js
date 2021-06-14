@@ -11,6 +11,9 @@ let students = [{
     email: "alex@gmail.com", 
     matter: "History 1"
 }]; 
+
+const btn = document.querySelector(`.confirm-btn`); 
+
 //let student = []; 
 
 for(student in students) {
@@ -27,11 +30,21 @@ for(student in students) {
         <div class="grid-item matters">${matter}</div>
         <div class="grid-item week">
             <select name="" id="" class="week-select">
-            <option value="1">Week One</option>
-            <option value="2">Week Two</option>
+            <option value="week 1">Week One</option>
+            <option value="week 2">Week Two</option>
             </select>
         </div>
     </section> `; 
     
     document.querySelector(`.grid-container`).innerHTML += htmlCode; 
-}
+}; 
+
+/* btn.addEventListener(`click`, () => { */
+/*    let elements = document.querySelectorAll(`.week`);  */
+/*    let weekSelect = document.querySelectorAll(".week-select")[element].value; */ 
+/*  */
+/*    for(element in elements) { */
+/*        week = elements[element];  */
+/*        week.innerHTML = weekSelect[elements].value;  */
+/*    } */
+/* });  */

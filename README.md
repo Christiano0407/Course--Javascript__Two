@@ -127,6 +127,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [element-style](https://developer.mozilla.org/es/docs/orphaned/Web/API/ElementCSSInlineStyle/style)
 - [Create-element-js](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
 - [CreateText-Node](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
+- [minmax-CSS](https://developer.mozilla.org/es/docs/Web/CSS/minmax())
 
 # Curso Javascript Nivel Mind
 
