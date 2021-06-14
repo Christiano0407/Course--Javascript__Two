@@ -21,6 +21,8 @@ button.addEventListener(`click`, (e) => {
   }
 }); 
 
+    // Validar Campo de formulario
+    
 const validarCampos = () => {
     let error = []; 
     if(names.value.length < 5) {
