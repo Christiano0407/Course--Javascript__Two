@@ -59,6 +59,16 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 # Guide Code 
 - [30SecondsCode](https://www.30secondsofcode.org/)
 
+# CMS Tips: 
+> Dato CMS
+- [DatoCMS](https://www.datocms.com/)
+> Strapi
+-[Strapi](https://strapi.io/)
+> Prismic
+- [prismic](https://prismic.io/)
+# Graph QL
+  [Graph QL](https://graphql.org/)
+
 # Curso Javascript y el DOM / Código Facilito
 
 - [Código Facilito](https://codigofacilito.com/usuarios/mis_cursos)
@@ -171,6 +181,13 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > Animation / Request Animation
 - [Animation/Request/js](https://www.html5rocks.com/en/tutorials/speed/animations/)
 - [GSAP](https://greensock.com/gsap/)
+
+> Sentencia de Bloque Javascript
+- [Sentencia de Bloque_JS](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements)
+
+> Flujo y manejo de errores
+- [flujo y errores](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+- [try...catch](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/try...catch)
 ## API 
 
 > API: Aplication Programming Interface / Interfaz de Programación de Aplicación
