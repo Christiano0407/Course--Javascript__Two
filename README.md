@@ -222,6 +222,18 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [StackOverflow](https://es.stackoverflow.com/)
 - [Github-Topics](https://github.com/topics)
 - [JamstackDev](https://jamstackthemes.dev/#archetype=portfolio)
+
+> Try...catch
+- [Try...catch](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/try...catch)
+> Typeof
+- [Typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+> InstanceOf
+- [instanceof](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/instanceof)
+> ReferencesError
+- [ReferencesError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+
+# Javascript Guide
+- [Javascript_Guide](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
 # MIT LICENSE
 
  > MIT License:
