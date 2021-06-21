@@ -232,6 +232,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > ReferencesError
 - [ReferencesError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
+> Flex-Basis-CSS
+- [flex-basis](https://developer.mozilla.org/es/docs/Web/CSS/flex-basis)
+
 # Javascript Guide
 - [Javascript_Guide](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
 # MIT LICENSE
