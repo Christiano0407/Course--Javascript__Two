@@ -18,9 +18,9 @@ img {
 body {
     width: 100%;
 }
-.formulario {
-    width: 80%;
-    margin: 40px 10%;
+.form {
+   /*  width: 80%; */
+    margin: 50px 20%;
     text-align: center;
     background: violet;
     padding: 20px;
@@ -29,7 +29,22 @@ body {
 }
 h2 {
 margin: 0;
-flex-basis: 90%;
+/* flex-basis: 90%; */
+flex-grow: 1;
+font-size: 1.8rem;
+color: #fff;
+font-weight: 700;
 }
 input {
+    width: 30px;
+    outline: none;
+}
+input[type="button"] {
+    width: 50px;
+    margin-left: 5px;
+    color: #000;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
 }

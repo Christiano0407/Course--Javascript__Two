@@ -36,3 +36,43 @@
 /*     finally {return 3} */
 /* } */
 /* console.log(finallyTry());  */
+
+
+// Ejercicio == Form3
+//const button = document.getElementById(`button-matter`); 
+//const note = document.getElementById(`note-student`); //
+
+
+/* button.addEventListener("click", () => { */
+/*     let result, message;  */
+/*     openModal(result, message); */
+/*     try { */
+/*       result = parseInt(document.getElementById(`notes`).value);  */
+/*       if(isNaN(prevRes)) { */
+/*           throw "Gracioso";  */
+/*       } */
+/*       message = verification(prevRes);   */
+/*     } catch(e) { */
+/*       result = "Error, Error";  */
+/*       message = "Hacker site";  */
+/*     } */
+/*     openModal(result, message);  */
+/* }) */
+/*  */
+/* const verification = (pr) =>  { */
+/*   let result;  */
+/*  */
+/*   switch(pr) { */
+/*    case 1: result = "Uff!";  */
+/*    break;  */
+/*    case 10: result = "Very Good";  */
+/*    break;  */
+/*    default : result = null;  */
+/*   } */
+/*   return result */
+/* } */
+/*  */
+/* const openModal = (res, msg) => { */
+/*     console.log(res);  */
+/*     console.log(msg);  */
+/* } */
