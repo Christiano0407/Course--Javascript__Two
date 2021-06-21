@@ -1,4 +1,3 @@
-document.write(`Hello World`); 
 /*  ======== Control de flujo, y manejo de errores. ======= */
 
 // a) Sentencia de Bloque.
@@ -19,13 +18,21 @@ document.write(`Hello World`);
 /* try...catch...finally */
 /*  */
 
-let value = 20;  
-try{
- if(value === 20) {
-     console.log("Valor verdadero")
- }
-}
-catch(error) {
- console.log("Error"); 
-}
+/* let value = 20;   */
+/* try{ */
+/*  if(value === 20) { */
+/*      console.log("Valor verdadero") */
+/*  } */
+/* } */
+/* catch(error) { */
+/*  console.log("Error");  */
+/* } */
 
+// Finally == Tiene una  mayor prioridad. 
+/* const finallyTry = () =>  */
+/* { */
+/*     try { return 1} */
+/*     catch(e) {return 2} */
+/*     finally {return 3} */
+/* } */
+/* console.log(finallyTry());  */
