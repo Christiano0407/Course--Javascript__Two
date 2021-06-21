@@ -5,6 +5,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Platzi](https://platzi.com/home)
 - [FreeCodeCam-Channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 - [FreeCodeCamp](https://www.freecodecamp.org/learn)
+- [Full Javascript](https://www.youtube.com/watch?v=jS4aFq5-91M)
 
 # Teachers Platzi
 - [Oscar Barajas](https://www.youtube.com/channel/UCw05fUBPwmpu-ehXFMqfdMw)
