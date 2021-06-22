@@ -42,7 +42,9 @@ bonusPoints = bonusPoints + 45;
 console.log(bonusPoints); 
 
 // Exercise 3: button
-const btn = document.getElementById(`btn`); 
-btn.addEventListener(`click`, () => {
+const btn = document.getElementById(`btn`);
+
+btn.addEventListener(`click`,() => {
   console.log("Button"); 
 })
+// Write laps complete / Exercise 5: 
