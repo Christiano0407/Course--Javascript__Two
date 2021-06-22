@@ -143,7 +143,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [element-style](https://developer.mozilla.org/es/docs/orphaned/Web/API/ElementCSSInlineStyle/style)
 - [Create-element-js](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
 - [CreateText-Node](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
-- [minmax-CSS](https://developer.mozilla.org/es/docs/Web/CSS/minmax())
+- [minmax-CSS](https://developer.mozilla.org/es/docs/Web/CSS/minmax)
 
 # Curso Javascript Nivel Mind
 
@@ -249,6 +249,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 
 # Javascript Guide
 - [Javascript_Guide](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
+
+> Guide HTML DOM Style Object
+- [w3schools-Js](https://www.w3schools.com/jsref/dom_obj_style.asp)
 # MIT LICENSE
 
  > MIT License:
