@@ -2,10 +2,14 @@
 Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJs. 
 
 # Platforms Courses Javascript 
+> Platzi
 - [Platzi](https://platzi.com/home)
+> FreeCodeCamp
 - [FreeCodeCam-Channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 - [FreeCodeCamp](https://www.freecodecamp.org/learn)
 - [Full Javascript](https://www.youtube.com/watch?v=jS4aFq5-91M)
+> Scrimba
+- [Scrimba](https://scrimba.com/learn/learnjavascript)
 
 # Teachers Platzi
 - [Oscar Barajas](https://www.youtube.com/channel/UCw05fUBPwmpu-ehXFMqfdMw)
