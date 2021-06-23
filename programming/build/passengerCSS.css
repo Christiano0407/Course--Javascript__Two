@@ -42,6 +42,15 @@ h2 {
     margin-bottom: 2rem;
     color: #fff;
 }
+.section {
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
 .button {
     border: none;
     outline: none;
@@ -60,4 +69,8 @@ h2 {
 .button:hover {
     background: #000;
     color: #fff;
+}
+
+.save  {
+    margin-top: 1rem;
 }

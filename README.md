@@ -252,6 +252,13 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 
 > Guide HTML DOM Style Object
 - [w3schools-Js](https://www.w3schools.com/jsref/dom_obj_style.asp)
+> Media Elements
+- [Media Elements](https://developer.mozilla.org/es/docs/Web/API/HTMLMediaElement)
+
+> Import and Export 
+- [Export Js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export)
+- [Import Js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import)
+
 # MIT LICENSE
 
  > MIT License:

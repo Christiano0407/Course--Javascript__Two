@@ -88,3 +88,14 @@ btn.addEventListener(`click`, () => {
 })
 
 console.log(countEl); 
+
+// Exercise Eight 
+//- Create a function, save(), which long out count when it´s called.
+const saveBtn = document.getElementById(`save-btn`); 
+
+saveBtn.addEventListener(`click`, () => {
+  save = () => {
+    console.log(countEl); 
+  }
+  save();  
+})
