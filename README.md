@@ -11,7 +11,8 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Async/Await Js](https://www.youtube.com/watch?v=ZYb_ZU8LNxs)
 > Scrimba
 - [Scrimba](https://scrimba.com/learn/learnjavascript)
-
+> API REST with Javascript
+- [Dave Gray_API](https://www.youtube.com/watch?v=bC5KVrX-AlA)
 # Teachers Platzi
 - [Oscar Barajas](https://www.youtube.com/channel/UCw05fUBPwmpu-ehXFMqfdMw)
 - [Diego De Granda](https://twitter.com/degranda10?lang=es)
@@ -258,6 +259,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > Import and Export 
 - [Export Js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export)
 - [Import Js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import)
+- [JS-Emoji](https://github.com/iamcal/js-emoji)
+- [Js-Emoji2](https://www.w3schools.com/CHARSETS/ref_emoji_smileys.asp)
+
 
 # MIT LICENSE
 
