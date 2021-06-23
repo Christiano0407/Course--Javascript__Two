@@ -99,3 +99,15 @@ saveBtn.addEventListener(`click`, () => {
   }
   save();  
 })
+
+// Practice Context Text: 
+let user = "Alma Rosa"; 
+// Object:
+let nation = {
+  nation: `México`,
+}
+// Array:
+const language = ["English", "French"]; 
+
+console.log(user + " " + " Viene desde " + `${nation.nation}` + " . " + "Habla dos idiomas: " + `${language[0]}, ${language[1]}`); 
+
