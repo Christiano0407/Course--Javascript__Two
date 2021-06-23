@@ -26,7 +26,7 @@ let countOne = 0;
 
 // Evento Contador:
 btn.addEventListener(`click`, () => {
-    countOne = countOne + 1; 
+    countOne += + 1; 
     
     count.innerText = countOne; 
 })
@@ -34,8 +34,14 @@ btn.addEventListener(`click`, () => {
 //Evento Guardar/save: 
 saveBtn.addEventListener(`click`, () => {
    save = () => {
-       console.log(countOne); 
+       console.log(countOne);
+
+       let countStr = countOne + " - ";  
+       saveEl.innerText += countStr; 
    }
    save(); 
 })
 console.log(countOne); 
+console.log(saveEl); 
+
+// Exercise 9: Debugging Online
