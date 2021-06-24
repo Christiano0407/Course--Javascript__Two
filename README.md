@@ -248,8 +248,14 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > Flex-grow
 - [Flex-grow](https://developer.mozilla.org/es/docs/Web/CSS/flex-grow)
 
+# Practice Methods: 
 > Métodos de Arreglos Modernos en Javascript en
 - [Vide MRR](https://www.youtube.com/watch?v=bkgXlQp5hbI)
+- [ArrayPrototypeMethods](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [map](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+- [from](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+- [length](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
 
 # Javascript Guide
 - [Javascript_Guide](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)

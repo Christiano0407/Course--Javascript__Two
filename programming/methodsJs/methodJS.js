@@ -48,5 +48,20 @@ console.log(result2);
 // 3) ========================= .filter()
 // => Nos permite filtrar / Nos regresa un arreglo nuevo:
 
-let arr2 = [1,2,3,4,5,6,7,8,9,10];
+let arr2 = [1,2,3,4,5,6,7,8,9,10, 11, 12, 13];
 
+//1)
+let result3 = []; 
+for(let index = 0; index < arr2.length; index++) {
+    const items = arr2[index]; 
+
+    if(items > 5 && items < 11) {
+       result3.push(items); 
+    }else {
+       console.log("Tenemos un error"); 
+    }
+}
+console.log(result3);
+
+
+//2)
