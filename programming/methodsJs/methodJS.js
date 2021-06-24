@@ -74,6 +74,36 @@ console.log(result33);
 // 4) ======================== .find(); 
 // => Encontrar la primera coincidencia dentro de nuestro arreglo basado en una condición. 
 
+let arr3 = [ 
+ { 
+  city: "New York",
+  budget: 5500
+ }, 
+ {
+  city: "Mexico City",
+  budget: 4500
+ }, 
+ {
+  city: "Orlando Florida",
+  budget: 2000
+ },
+]; 
+
 // 1) ciclo for(); 
+let resultsss = []; 
+for(let index = 0; index < arr3.length; index++) {
+    const itemsss = arr3[index]; 
+
+    if(itemsss.budget < 6000) {
+        resultsss = itemsss; 
+        break; 
+    }
+}
+console.log(resultsss); 
 
 // 2) .find(); 
+
+let money = arr3.find(item => item.budget < 3000); 
+console.log(money); 
+
+console.log(arr3); 
