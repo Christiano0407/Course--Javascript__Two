@@ -50,18 +50,30 @@ console.log(result2);
 
 let arr2 = [1,2,3,4,5,6,7,8,9,10, 11, 12, 13];
 
-//1)
-let result3 = []; 
-for(let index = 0; index < arr2.length; index++) {
-    const items = arr2[index]; 
+//1) Ciclo for(); 
+/* let result3 = [];  */
+/* for(let index = 0; index < arr2.length; index++) { */
+/*     const items = arr2[index];  */
+/*  */
+/*     if(items > 5 && items < 11) { */
+/*        result3.push(items);  */
+/*     }else { */
+/*        console.log("Tenemos un error Dos");  */
+/*     } */
+/* } */
+/* console.log(result3); */
 
-    if(items > 5 && items < 11) {
-       result3.push(items); 
-    }else {
-       console.log("Tenemos un error"); 
-    }
-}
-console.log(result3);
 
+//2) filter(); 
+/* let result33 = arr2.filter( (itemss, index) => { */
+/*    return itemss > 3 && itemss < 12;  */
+/* });  */
+let result33 = arr2.filter(itemss => itemss > 2 && itemss < 12); 
+console.log(result33); 
 
-//2)
+// 4) ======================== .find(); 
+// => Encontrar la primera coincidencia dentro de nuestro arreglo basado en una condición. 
+
+// 1) ciclo for(); 
+
+// 2) .find(); 
