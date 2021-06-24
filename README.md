@@ -263,6 +263,8 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 - [every](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+- [sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- [sort2](https://www.w3schools.com/jsref/jsref_sort.asp)
 
 > item 
 - [item](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/item)

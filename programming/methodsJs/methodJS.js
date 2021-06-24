@@ -189,7 +189,7 @@ const passed = arrN.every( (item) => item > 0 )
 
 console.log(passed); 
 
-// .some() ==================================
+// 6) .some() ==================================
 // => Pruebas con nuestro arreglo de datos. 
 let value = [
     {
@@ -231,7 +231,43 @@ const test2 = value.some( item => {
 })
 console.log(test2); 
 
-// Extra Tip ============ .some() VS .includes(); 
+// 7) Extra Tip ============ .some() VS .includes(); 
 
 // includes() => Te va a buscar por un elemento completo. 
 
+// 8) ======================= .sort(); 
+// => === Ordenar elementos dentro de un arreglo (array). 
+
+const values = [5, 4, 9, 10, 15, 20, 18, 19, 7]; 
+// ciclo for(); 
+for(let i = 0; i < values.length; i++) {
+
+  for(let j = i + 1; j < values.length; j++) {
+    if(values[i] > values[j]) {
+       let temp = values[i]; 
+       values[i] = values[j]; 
+       values[j] = temp; 
+    }
+  }
+}
+console.log(values); 
+//if() => Le estamos diciendo que sea de menor a mayor. 
+
+// .sort(); 
+let val = [...values]; 
+// función de comparación: para invertir números / ordenar.. 
+val.sort( (i, j) => {
+    //return i - j; 
+    if(i < j) {
+      return -1; 
+    }
+
+    if(i > j) {
+      return 1; 
+    }
+
+    return 0; 
+
+}); 
+
+console.log(val); 
