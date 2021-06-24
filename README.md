@@ -248,6 +248,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > Flex-grow
 - [Flex-grow](https://developer.mozilla.org/es/docs/Web/CSS/flex-grow)
 
+> Métodos de Arreglos Modernos en Javascript en
+- [Vide MRR](https://www.youtube.com/watch?v=bkgXlQp5hbI)
+
 # Javascript Guide
 - [Javascript_Guide](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
 
