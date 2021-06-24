@@ -233,4 +233,5 @@ console.log(test2);
 
 // Extra Tip ============ .some() VS .includes(); 
 
+// includes() => Te va a buscar por un elemento completo. 
 
