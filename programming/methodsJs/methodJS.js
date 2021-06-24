@@ -107,3 +107,84 @@ let money = arr3.find(item => item.budget < 3000);
 console.log(money); 
 
 console.log(arr3); 
+
+// 5) ================================= .findIndex(); 
+// Regresa sólo el índice de la primera coincidencia. 
+
+let data = [
+
+  {
+    userName: "Pamela", 
+    city: "Mexico City",
+    budget: 1500 
+  }, 
+  {
+   userName: "Elsa",
+   city: "NY",
+   budget: 4000
+  }, 
+  {
+   userNmae: "Natasha",
+   city: "Miami",
+   budget: 5000,
+  },
+
+]; 
+
+console.log(data); 
+//1) findIndex()
+let data2 = data.findIndex( item => item.budget < 4500); 
+console.log(data[data2]); 
+
+// 6) =============================== .reduce(); 
+// => Reducir un arreglo => Aplicar una serie de operaciones y optener un resultado. 
+
+//1) ciclo for():
+let num = [5,10,15,20,25,30]; 
+let res = 0; 
+
+for(let i = 0; i < num.length; i++) {
+    const item = num[i]; 
+
+    res = res + item; 
+}
+console.log(res); // => 105
+
+//2) reduce(); 
+
+let res2 = num.reduce( (prev, item, i) => {
+    return prev + item; // result = result + item; 
+}, 1); 
+
+console.log(res2); 
+
+// EXERCISE Extra ====================: 
+
+let numbers = [20, 10, 5, 50, 40, 30]; 
+
+let res3 = numbers.reduce( (prev, item, i) => {
+    
+    return Math.max(prev, item); 
+
+}, Number.MIN_VALUE);
+
+console.log(res3); 
+
+// 5) .every() ================================
+// => Test para cada elemento, que cumpla una condición. True / false.
+let arrN = [0, 5, 10, 12, 15, 20, 25, 30]; 
+
+// 1) ciclo for(); 
+let testPassed = false; 
+
+for(let i = 0; i < arrN.length; i++) {
+    const item = arrN[i]; 
+    if(item > 0) testPassed = true; 
+    if(item < 0) { testPassed = false; break; }
+}
+console.log(testPassed);  //=>true. 
+// 2) .every(); 
+
+const passed = arrN.every( (item) => item > 0 )
+
+console.log(passed); 
