@@ -188,3 +188,49 @@ console.log(testPassed);  //=>true.
 const passed = arrN.every( (item) => item > 0 )
 
 console.log(passed); 
+
+// .some() ==================================
+// => Pruebas con nuestro arreglo de datos. 
+let value = [
+    {
+      id: 0,
+      name: `New York Times`,
+    },
+    {
+      id: 1,
+      name: `Boston Journal`,
+      audience: 8
+    },
+    {
+      id: 2,
+      name: `Washington Post`,
+      audience: 9
+    },
+    {
+      id: 3, 
+      name: `CBS News`,
+    },
+]; 
+console.log(value); 
+
+// 1) ciclo for()
+let test = false; 
+for(let i = 0; i < value.length; i++) {
+    const item = value[i]; 
+
+    // Existen journals sin audience === true or false. 
+    if(item.audience == undefined) {
+        test = true; 
+        break; 
+    }
+}
+console.log(test); 
+// 2) .some(); 
+const test2 = value.some( item => {
+    return item.audience == undefined; 
+})
+console.log(test2); 
+
+// Extra Tip ============ .some() VS .includes(); 
+
+
