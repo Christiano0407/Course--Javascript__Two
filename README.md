@@ -286,6 +286,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [JS-Emoji](https://github.com/iamcal/js-emoji)
 - [Js-Emoji2](https://www.w3schools.com/CHARSETS/ref_emoji_smileys.asp)
 
+> Node Text
+- [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
+
 # Extra Tips: CSS 
 > Kevin Powell
 - [simplify :is](https://www.youtube.com/watch?v=McC4QkCvbaY&t=4s)
