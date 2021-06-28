@@ -286,6 +286,13 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [JS-Emoji](https://github.com/iamcal/js-emoji)
 - [Js-Emoji2](https://www.w3schools.com/CHARSETS/ref_emoji_smileys.asp)
 
+# Extra Tips: CSS 
+> Kevin Powell
+- [simplify :is](https://www.youtube.com/watch?v=McC4QkCvbaY&t=4s)
+- [Inset](https://www.youtube.com/watch?v=sdvfwwFBmMk)
+- [Image-background](https://www.youtube.com/watch?v=3T_Jy1CqH9k)
+- [Layout](https://www.youtube.com/watch?v=QJz81yva7r0)
+- [Masonry](https://www.youtube.com/watch?v=KrPz_wmBsAE&t=89s)
 
 # MIT LICENSE
 
