@@ -29,3 +29,86 @@ img {
     background-position: center;
     object-fit: cover;
 }
+.section-One {
+ width: 100%;
+ margin: 0 auto;
+ height: 100px;
+}
+.tittle {
+    text-align: center;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+}
+.section-Two {
+ width: 50%;
+ margin: 0 auto;
+ height: 350px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border-radius: 1rem;
+ background: rgba( 255, 255, 255, 0.50 );
+ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ backdrop-filter: blur( 5.5px );
+ -webkit-backdrop-filter: blur( 5.5px );
+ border-radius: 10px;
+ border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.tittleOne {
+    font-size: 2rem;
+    color: var(--clr-black);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+}
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin: 1rem auto;
+}
+.button {
+    width: 8rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background: rgba( 80, 227, 194, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #ffffff;
+}
+.button:is(:hover, :focus) {
+    background: rgba( 80, 227, 194, 0.90 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18.0px );
+    -webkit-backdrop-filter: blur( 18.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #000000;
+}
+
+.save {
+    background: rgba( 208, 2, 27, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#save-el {
+    margin-top: 1rem;
+    text-align: center;
+}
