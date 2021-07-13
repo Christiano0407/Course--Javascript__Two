@@ -153,6 +153,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 
 
 ## Guides
+> Principal Guide:
+- [Freecodecamp-CSS](https://www.freecodecamp.org/learn/responsive-web-design/#basic-css)
+- [Freecodecamp-JS](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript)
 
 > HTML
 - [Guide-HTML](https://developer.mozilla.org/es/docs/Web/HTML)

@@ -38,6 +38,8 @@ img {
     text-align: center;
     margin: 1.5rem 0;
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 .section-Two {
  width: 50%;
