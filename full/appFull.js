@@ -25,17 +25,12 @@ let dogAge = 7;
 console.log(`Dog age: ${dogAge}`);  
 
 //  > = Evento Contador < == Contador va agregar el valor del count == > 
+console.log(countEl); 
 button.addEventListener(`click`, () => {
     console.log("btn-1");  
 // < == Va ir sumando un valor == > 
     /* count = count + 1;  */
     count += 1; 
-
-  /*   if(count === dogAge) { */
-  /*       countEl.innerText = dogAge;   */
-  /*   }else { */
-  /*       console.log("Error");  */
-  /*   } */
 
     countEl.innerText = count;
     countEl.style.color = "Red"; 
@@ -43,17 +38,20 @@ button.addEventListener(`click`, () => {
 });
 
 // > Evento Guardar < ==== Vamos a guardar el número registrado / save ==== > 
-// Función save === > 
+//<====== Función save() / wich logs out the count when it´s called === > 
 btnSave.addEventListener(`click`, () => {
     console.log("Btn-2"); 
 
     save = () => {
         console.log(count); 
 
+        saveEl.innerText = `Personas Entrantes: ${count}`; 
+        saveEl.style.color = "#000";
+        saveEl.style.fontSize = "2.5rem";
+        saveEl.style.fontWeight = "bold";   
+    }; 
 
-        save(); 
-    }
-
+    save(); 
 }); 
 
 
