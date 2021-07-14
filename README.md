@@ -295,6 +295,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
 
 # Extra Tips: CSS 
+> Guide Responsive Web Design 
+- [freecodecamp/Responsive/CSS](https://www.freecodecamp.org/learn/responsive-web-design/)
+- [Stackoverflow](https://es.stackoverflow.com/)
 > Kevin Powell
 - [simplify :is](https://www.youtube.com/watch?v=McC4QkCvbaY&t=4s)
 - [Inset](https://www.youtube.com/watch?v=sdvfwwFBmMk)
