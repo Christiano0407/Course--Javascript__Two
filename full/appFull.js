@@ -52,6 +52,9 @@ btnSave.addEventListener(`click`, () => {
         saveEl.style.color = "#000";
         saveEl.style.fontSize = "2.5rem";
         saveEl.style.fontWeight = "bold";   
+        // < === Regresar a cero (0) / comience de cero == >
+         countEl.textContent = 0; 
+         count = 0; 
     }; 
 
     save(); 
