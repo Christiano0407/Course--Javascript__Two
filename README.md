@@ -146,7 +146,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [CreateText-Node](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
 - [minmax-CSS](https://developer.mozilla.org/es/docs/Web/CSS/minmax)
 
-# Curso Javascript Nivel Mind
+## Curso Javascript Nivel Mind
 
 - [Soy Dalto](https://www.youtube.com/watch?v=xOinGb2MZSk&t=37s)
 - [BettaTech](https://www.youtube.com/channel/UCSf6S_PAhXsqGMTPDiKgdRg)
@@ -288,8 +288,10 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Import Js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import)
 - [JS-Emoji](https://github.com/iamcal/js-emoji)
 - [Js-Emoji2](https://www.w3schools.com/CHARSETS/ref_emoji_smileys.asp)
+> Emoji
+- [Emojis-Library](https://github.com/iamcal/js-emoji)
 
-> Node Text
+> Node Text Content
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
 
 # Extra Tips: CSS 
@@ -299,6 +301,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Image-background](https://www.youtube.com/watch?v=3T_Jy1CqH9k)
 - [Layout](https://www.youtube.com/watch?v=QJz81yva7r0)
 - [Masonry](https://www.youtube.com/watch?v=KrPz_wmBsAE&t=89s)
+- [Emoji](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)
 
 # MIT LICENSE
 

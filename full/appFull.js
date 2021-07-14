@@ -44,8 +44,11 @@ btnSave.addEventListener(`click`, () => {
 
     save = () => {
         console.log(count); 
+        //let countStr = ` 0 Entries: ${count}`; 
+        let countStr = `${count} - `; 
 
-        saveEl.innerText = `Personas Entrantes: ${count}`; 
+        //saveEl.innerText += countStr; 
+        saveEl.textContent += countStr; 
         saveEl.style.color = "#000";
         saveEl.style.fontSize = "2.5rem";
         saveEl.style.fontWeight = "bold";   
@@ -53,6 +56,9 @@ btnSave.addEventListener(`click`, () => {
 
     save(); 
 }); 
+// < =========== Node text Content ============== > 
+const textContents = document.getElementById(`textContent`).textContent = "Es nuevo texto / Node Text Content"; 
+
 
 
 console.log(saveEl); 
