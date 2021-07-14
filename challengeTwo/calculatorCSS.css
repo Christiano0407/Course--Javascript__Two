@@ -1,0 +1,63 @@
+:root {
+    --clr-White: #ffffff; 
+    --clr-black: #000000; 
+    --font:'Noto Sans JP', sans-serif;
+}
+*,::before,::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-family: var(--font);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+main {
+    width: 50%;
+    padding: 2rem 0;
+    margin: 2rem auto;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.25 ); 
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+span {
+    border-bottom: 2rem 0;
+    padding: 4px;
+}
+button {
+    background: #000;
+    color: #ffffff;
+    margin: 2rem 0; 
+    border: none;
+    outline: none;
+    padding: .5rem .8rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+button:is(:hover) {
+    background: #ffffff;
+    color: #000000;
+}
