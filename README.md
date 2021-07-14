@@ -9,8 +9,10 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [FreeCodeCamp](https://www.freecodecamp.org/learn)
 - [Full Javascript](https://www.youtube.com/watch?v=jS4aFq5-91M)
 - [Async/Await Js](https://www.youtube.com/watch?v=ZYb_ZU8LNxs)
-> Scrimba
+> Scrimba / freecodecamp
 - [Scrimba](https://scrimba.com/learn/learnjavascript)
+- [scrimba/freecodecamp Repository](https://github.com/scrimba/learn-javascript)
+
 > API REST with Javascript
 - [Dave Gray_API](https://www.youtube.com/watch?v=bC5KVrX-AlA)
 # Teachers Platzi
