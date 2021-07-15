@@ -234,6 +234,11 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [StackOverflow](https://es.stackoverflow.com/)
 - [Github-Topics](https://github.com/topics)
 - [JamstackDev](https://jamstackthemes.dev/#archetype=portfolio)
+- [Geeksforgeeks](https://www.geeksforgeeks.org/)
+- [edx](https://www.edx.org/)
+- [StackXchange](https://spanish.stackexchange.com/)
+- [Codeproject](https://www.codeproject.com/)
+- [Coderanch](https://coderanch.com/)
 
 > Try...catch
 - [Try...catch](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/try...catch) 
@@ -296,10 +301,11 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > Node Text Content
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
 
-# Extra Tips: CSS 
+# Extra Tips: Guides Web
 > Guide Responsive Web Design 
 - [freecodecamp/Responsive/CSS](https://www.freecodecamp.org/learn/responsive-web-design/)
 - [Stackoverflow](https://es.stackoverflow.com/)
+# CSS Tools / Tips: 
 > Kevin Powell
 - [simplify :is](https://www.youtube.com/watch?v=McC4QkCvbaY&t=4s)
 - [Inset](https://www.youtube.com/watch?v=sdvfwwFBmMk)
@@ -307,6 +313,15 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Layout](https://www.youtube.com/watch?v=QJz81yva7r0)
 - [Masonry](https://www.youtube.com/watch?v=KrPz_wmBsAE&t=89s)
 - [Emoji](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)
+
+# Inspiration UI/UX / Design Web
+- [Awwwards](https://www.awwwards.com/)
+- [Dribble](https://dribbble.com/)
+- [Behance](https://www.behance.net/)
+- [DesignerHunt](https://www.designerhunt.io/)
+- [ScreenLane](https://screenlane.com/)
+- [UIsources](https://www.uisources.com/)
+- [MUZ](https://muz.li/)
 
 # MIT LICENSE
 
