@@ -16,6 +16,7 @@ body {
     width: 100%;
     font-family: var(--font);
     background-image: url("../sectionThree/img/table.png");
+    background-size: cover;
 }
 ul {
     list-style: none;
@@ -37,6 +38,8 @@ img {
 .game {
     position: absolute;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 50%;
     margin: 2rem auto;
@@ -50,7 +53,7 @@ img {
 }
 .title {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: goldenrod;
     font-weight: bold;
     width: 100%;
@@ -72,4 +75,23 @@ p {
 }
 .suma {
    font-size: 1.4rem;
+}
+
+button {
+    padding: 1rem;
+    margin: 2rem 0;
+    width: 100px;
+    color: #ffffff;
+    background: goldenrod;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    text-align: center;
+}
+button:is(:hover) {
+    background: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
 }

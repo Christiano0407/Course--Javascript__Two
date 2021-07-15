@@ -7,30 +7,43 @@ console.log(sum);
 let hasBlackjack = false; 
 let isLive = true; 
 let message = "";  
-
-const messagePlay = document.getElementById(`message-el`); 
-console.log(messagePlay); 
-
+// Link to Stylesheet === > 
+// Start Button ===== > 
+const buttonStart = document.getElementById(`btnStart`);
+console.log(buttonStart); 
 
 // < =============== CONTINUE BLACKJACK GAME ============== > 
 // Conditional Blackjack >>>>>>>>
+/* buttonStart.addEventListener(`click`, () => { */
+/*  console.log("Start Game");  */
+/*   */
+/* });  */
+let messagePlay = document.getElementById(`message-el`); 
+console.log(messagePlay);  
 
-if(sum ===  21) {
-    message = "wohoo! You´ve got Blackjack"; 
-    hasBlackjack = true; 
-}else if (sum <= 20) {
-    message = "Do you want to draw a new card";  
-}else {
-    message = "You´re out of the game"; 
-    isLive = false; 
-}; 
-// Cash >>>>>>
-console.log(hasBlackjack); 
-// ADD basic styling === > 
-console.log(isLive); 
-// Challenge Message===== >
-console.log(message);
-// Link to Stylesheet === > 
+
+function startGame() {
+    
+    if(sum ===  21) {
+        message = "wohoo! You´ve got Blackjack"; 
+        hasBlackjack = true; 
+    }else if (sum <= 20) {
+        message = "Do you want to draw a new card"; 
+    }else {
+        message = "You´re out of the game"; 
+        isLive = false; 
+       }; 
+       // Cash >>>>>>
+    console.log(hasBlackjack); 
+     // ADD basic styling === > 
+    console.log(isLive); 
+    // Challenge Message===== >
+    console.log(message);
+
+    messagePlay.innerText = message; 
+    };
+
+startGame(); 
 
 
 console.groupEnd(); 
