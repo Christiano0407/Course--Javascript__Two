@@ -322,6 +322,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [ScreenLane](https://screenlane.com/)
 - [UIsources](https://www.uisources.com/)
 - [MUZ](https://muz.li/)
+- [Material Design](https://material.io/)
 
 # MIT LICENSE
 
