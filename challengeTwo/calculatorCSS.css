@@ -43,7 +43,9 @@ main {
 }
 span {
     border-bottom: 2rem 0;
-    padding: 4px;
+    padding: 5px;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 button {
     background: #000;
