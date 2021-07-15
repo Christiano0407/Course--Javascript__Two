@@ -8,6 +8,9 @@ let hasBlackjack = false;
 let isLive = true; 
 let message = "";  
 
+const messagePlay = document.getElementById(`message-el`); 
+console.log(messagePlay); 
+
 
 // < =============== CONTINUE BLACKJACK GAME ============== > 
 // Conditional Blackjack >>>>>>>>
@@ -28,10 +31,11 @@ console.log(isLive);
 // Challenge Message===== >
 console.log(message);
 // Link to Stylesheet === > 
- 
+
 
 console.groupEnd(); 
 
+console.group("Practice / challenges"); 
 // < =========== Funciones / Eventos / Condicionales / Ciclos ========== > 
 // < ==== Card 21 ==== > 
 /* if(sum < 21) { */
@@ -67,3 +71,4 @@ console.groupEnd();
 /* }else if(ageKing >= 101) { */
 /*     console.log("Not elegible, you have already gotten one");  */
 /* };  */
+console.groupEnd(); 
