@@ -26,7 +26,6 @@ console.log(messagePlay);
 // 1 button > 
 function startGame() {
 
-    
     };
 
 startGame(); 
@@ -48,8 +47,14 @@ buttonStart.addEventListener(`click`, () => {
 // New Button Card ==== > 
 const newCard = document.getElementById(`btnCard`); 
 console.log(newCard); 
+
 let cardThree = 6; 
 console.log(cardThree); 
+
+// let cardThree = []; 
+/* const countCard = cardThree.push(6);  */
+/* console.log(countCard);  */
+
 
 newCard.addEventListener(`click`, () => {
      console.log("New Card and Life"); 
