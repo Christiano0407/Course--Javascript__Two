@@ -49,17 +49,20 @@ startGame();
 buttonStart.addEventListener(`click`, () => {
 
     adds = () => {
+        // Mensaje >
         messagePlay.innerText = message; 
         messagePlay.style.color = "#000";
         messagePlay.style.fontSize = "22px";  
 
+        // suma Total > 
         const sumaTotal = document.getElementById(`suma`);
         console.log(sumaTotal); 
 
         sumaTotal.textContent += totalSum; 
         sumaTotal.style.color = " red";
         sumaTotal.style.fontSize = "18xpx";  
-
+        
+        // Tarjetas se vean > 
         const cards = document.getElementById(`card`); 
         console.log(cards); 
         cards.innerText += ` ${firstCard} y ${secondCard} `; 
