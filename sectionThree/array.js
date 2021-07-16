@@ -50,15 +50,30 @@ console.log(num);
 
 console.groupEnd(); 
 console.group("Message"); 
+// < ============================= Push() ================================= >
+// >>>> Agrega un elemento al final de la lista o array ===== > 
 let message = [
    "Hey, how´s it going?",
    "I´m great. thank you! How about you!?",
    "All good. Been working on my portfolio lately",
 ]; 
+//console.log(message); 
 let newMessage = "Same Here!"; 
-
 message.push(newMessage); 
 console.log(message); 
+
+// < ========================== pop() ================================== > 
+// >>>>> Elimina el último elemento agregado a las lista ==== >
+message.pop(); 
+console.log();
+
+// < =========================== forEach() =================================> 
+// <<<<<<<< Trabaja cada uno de los elementos (items) por separado ==== >
+message.forEach((item, index) => {
+   console.log(item, index); 
+}); 
+
+// < =========================() ==========================================>
 
 console.groupEnd(); 
 
