@@ -1,6 +1,6 @@
 console.group("Section Three / BlackJack"); 
 // < ========== Variables ========== > 
-const firstCard = 11; 
+const firstCard = 5; 
 const secondCard = 10; 
 let sum = firstCard + secondCard; 
 console.log(sum); 
@@ -26,10 +26,69 @@ console.log(messagePlay);
 // 1 button > 
 function startGame() {
 
-    if(sum ===  21) {
+    
+    };
+
+startGame(); 
+// 2 button > 
+buttonStart.addEventListener(`click`, () => {
+
+    adds = () => {
+
+        // Tarjetas se vean > 
+        const cards = document.getElementById(`card`); 
+        console.log(cards); 
+        cards.innerText += ` ${firstCard} y ${secondCard} `; 
+        cards.style.fontSize = "20px"
+        
+    }; 
+
+    adds(); 
+}); 
+// New Button Card ==== > 
+const newCard = document.getElementById(`btnCard`); 
+console.log(newCard); 
+let cardThree = 6; 
+console.log(cardThree); 
+
+newCard.addEventListener(`click`, () => {
+     console.log("New Card and Life"); 
+
+     
+
+     addTotal = () =>  {
+     const newThreeCard = document.getElementById(`newThreeCard`); 
+     console.log(newThreeCard); 
+     newThreeCard.textContent += cardThree; 
+     newThreeCard.style.fontSize = "18px"; 
+     newThreeCard.style.color = "blue"; 
+     }; 
+
+     addTotal(); 
+
+}); 
+// Suma Total con la nueva carta ====> 
+const buttonTotal = document.getElementById(`btnTotal`); 
+console.log(buttonTotal); 
+buttonTotal.addEventListener(`click`, () => {
+    
+    allTotalWin = () => {
+
+     // suma Total > 
+     const sumaTotal = document.getElementById(`suma`);
+     console.log(sumaTotal); 
+
+     let allSum = totalSum + cardThree; 
+     console.log(allSum); 
+
+     sumaTotal.textContent += allSum; 
+     sumaTotal.style.color = " red";
+     sumaTotal.style.fontSize = "18xpx"; 
+
+     if(allSum ===  21) {
         message = "wohoo! You´ve got Blackjack"; 
         hasBlackjack = true; 
-    }else if (sum <= 20) {
+    }else if (allSum <= 20) {
         message = "Do you want to draw a new card"; 
     }else {
         message = "You´re out of the game"; 
@@ -41,36 +100,17 @@ function startGame() {
     console.log(isLive); 
     // Challenge Message===== >
     console.log(message);
-    
-    };
 
-startGame(); 
-// 2 button > 
-buttonStart.addEventListener(`click`, () => {
+     // Mensaje >
+     messagePlay.innerText = message; 
+     messagePlay.style.color = "#000";
+     messagePlay.style.fontSize = "22px";  
 
-    adds = () => {
-        // Mensaje >
-        messagePlay.innerText = message; 
-        messagePlay.style.color = "#000";
-        messagePlay.style.fontSize = "22px";  
 
-        // suma Total > 
-        const sumaTotal = document.getElementById(`suma`);
-        console.log(sumaTotal); 
 
-        sumaTotal.textContent += totalSum; 
-        sumaTotal.style.color = " red";
-        sumaTotal.style.fontSize = "18xpx";  
-        
-        // Tarjetas se vean > 
-        const cards = document.getElementById(`card`); 
-        console.log(cards); 
-        cards.innerText += ` ${firstCard} y ${secondCard} `; 
-        cards.style.fontSize = "20px"
-        
     }; 
 
-    adds(); 
+    allTotalWin(); 
 }); 
 
 console.groupEnd(); 

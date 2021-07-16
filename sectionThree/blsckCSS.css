@@ -95,3 +95,7 @@ button:is(:hover) {
     font-weight: bold;
     cursor: pointer;
 }
+
+.newThreeCard {
+    font-size: 1.6rem;
+}
