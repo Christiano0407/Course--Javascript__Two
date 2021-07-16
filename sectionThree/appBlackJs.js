@@ -4,6 +4,7 @@ const firstCard = 11;
 const secondCard = 10; 
 let sum = firstCard + secondCard; 
 console.log(sum); 
+let totalSum = sum; 
 let hasBlackjack = false; 
 let isLive = true; 
 let message = "";  
@@ -22,8 +23,9 @@ let messagePlay = document.getElementById(`message-el`);
 console.log(messagePlay);  
 
 
+// 1 button > 
 function startGame() {
-    
+
     if(sum ===  21) {
         message = "wohoo! You´ve got Blackjack"; 
         hasBlackjack = true; 
@@ -39,12 +41,34 @@ function startGame() {
     console.log(isLive); 
     // Challenge Message===== >
     console.log(message);
-
-    messagePlay.innerText = message; 
+    
     };
 
 startGame(); 
+// 2 button > 
+buttonStart.addEventListener(`click`, () => {
 
+    adds = () => {
+        messagePlay.innerText = message; 
+        messagePlay.style.color = "#000";
+        messagePlay.style.fontSize = "22px";  
+
+        const sumaTotal = document.getElementById(`suma`);
+        console.log(sumaTotal); 
+
+        sumaTotal.textContent += totalSum; 
+        sumaTotal.style.color = " red";
+        sumaTotal.style.fontSize = "18xpx";  
+
+        const cards = document.getElementById(`card`); 
+        console.log(cards); 
+        cards.innerText += ` ${firstCard} y ${secondCard} `; 
+        cards.style.fontSize = "20px"
+        
+    }; 
+
+    adds(); 
+}); 
 
 console.groupEnd(); 
 
