@@ -64,10 +64,15 @@ for(let i = 0; i < sentences.length; i++) {
     greetingEl.textContent += sentences[i] + " ";
 
     // << function >>
-   /*  add = () =>  { */
-   /*    greetingEl.textContent = sentences;  */
-   /*  } */
-   /*  add();  */
+    add = () =>  {
+      if(sentences[0] === "Hello") {
+          console.log("Hi!"); 
+          // greetingEl.style.color = "green"; 
+      }else {
+          console.log("All texts"); 
+      }; 
+    }
+    add(); 
 
 }; 
 
