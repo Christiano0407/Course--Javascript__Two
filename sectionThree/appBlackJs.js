@@ -42,7 +42,8 @@ buttonStart.addEventListener(`click`, () => {
         
     }; 
 
-    adds(); 
+    adds();
+    
 }); 
 // New Button Card ==== > 
 const newCard = document.getElementById(`btnCard`); 
@@ -59,8 +60,6 @@ console.log(cardThree);
 newCard.addEventListener(`click`, () => {
      console.log("New Card and Life"); 
 
-     
-
      addTotal = () =>  {
      const newThreeCard = document.getElementById(`newThreeCard`); 
      console.log(newThreeCard); 
@@ -70,7 +69,6 @@ newCard.addEventListener(`click`, () => {
      }; 
 
      addTotal(); 
-
 }); 
 // Suma Total con la nueva carta ====> 
 const buttonTotal = document.getElementById(`btnTotal`); 
