@@ -99,3 +99,7 @@ button:is(:hover) {
 .newThreeCard {
     font-size: 1.6rem;
 }
+
+.newSelect {
+    font-size: 1.6rem;
+}

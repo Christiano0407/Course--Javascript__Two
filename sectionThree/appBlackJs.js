@@ -77,6 +77,25 @@ newCard.addEventListener(`click`, () => {
 
      addTotal(); 
 }); 
+
+// < ======== Select You Card ============== > 
+const selectCard = document.getElementById(`selectCard`);
+console.log(selectCard);   
+
+selectCard.addEventListener(`click`, () => {
+
+    youCard = () => {
+
+    const newSelect = document.getElementById(`newSelect`); 
+    newSelect.textContent += cardThree[2]; 
+    newSelect.style.fontSize = "18px"; 
+    newSelect.style.color = "green"; 
+
+    }
+    youCard(); 
+}); 
+
+
 // Suma Total con la nueva carta ====> 
 const buttonTotal = document.getElementById(`btnTotal`); 
 console.log(buttonTotal); 
@@ -84,17 +103,15 @@ buttonTotal.addEventListener(`click`, () => {
     
     allTotalWin = () => {
 
+        const sumaTotal = document.getElementById(`suma`);
+        console.log(sumaTotal); 
+        let allSum = totalSum + cardThree[2]; 
+         console.log(allSum); 
+        sumaTotal.textContent += allSum; 
+        sumaTotal.style.color = " red";
+        sumaTotal.style.fontSize = "18xpx"; 
+
      // suma Total > 
-     const sumaTotal = document.getElementById(`suma`);
-     console.log(sumaTotal); 
-
-     let allSum = totalSum + cardThree[2]; 
-     console.log(allSum); 
-
-     sumaTotal.textContent += allSum; 
-     sumaTotal.style.color = " red";
-     sumaTotal.style.fontSize = "18xpx"; 
-
      if(allSum ===  21) {
         message = "wohoo! You´ve got Blackjack"; 
         hasBlackjack = true; 
@@ -159,4 +176,16 @@ console.group("Practice / challenges");
 /* }else if(ageKing >= 101) { */
 /*     console.log("Not elegible, you have already gotten one");  */
 /* };  */
+
+let playerTime = 102; 
+let player2Time = 107; 
+
+function getFastestRaceTimer() {
+    if(playerTime < player2Time) {
+        return playerTime; 
+    }else {
+        console.log("ErrorPlayer"); 
+    }
+}
+console.log(getFastestRaceTimer()); 
 console.groupEnd(); 
