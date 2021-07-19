@@ -31,3 +31,6 @@ img {
     background-position: center;
     object-fit: cover;
 }
+h1 {
+    text-align: center;
+}
