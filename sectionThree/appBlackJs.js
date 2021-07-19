@@ -45,13 +45,18 @@ buttonStart.addEventListener(`click`, () => {
     adds();
     
 }); 
-// New Button Card ==== > 
+//  < ===== New Button Card ==== > 
 const newCard = document.getElementById(`btnCard`); 
 console.log(newCard); 
 
-let cardThree = 6; 
+let cardThree = [3, 5, 6]; 
 console.log(cardThree); 
 
+getRandomCard = () => {
+     for(let i = 0; i < cardThree.length; i++) {
+         newCard.textContent += cardThree[i]; 
+     } 
+}
 // let cardThree = []; 
 /* const countCard = cardThree.push(6);  */
 /* console.log(countCard);  */
@@ -66,6 +71,8 @@ newCard.addEventListener(`click`, () => {
      newThreeCard.textContent += cardThree; 
      newThreeCard.style.fontSize = "18px"; 
      newThreeCard.style.color = "blue"; 
+
+     getRandomCard(); 
      }; 
 
      addTotal(); 
@@ -81,7 +88,7 @@ buttonTotal.addEventListener(`click`, () => {
      const sumaTotal = document.getElementById(`suma`);
      console.log(sumaTotal); 
 
-     let allSum = totalSum + cardThree; 
+     let allSum = totalSum + cardThree[2]; 
      console.log(allSum); 
 
      sumaTotal.textContent += allSum; 
@@ -107,9 +114,7 @@ buttonTotal.addEventListener(`click`, () => {
      // Mensaje >
      messagePlay.innerText = message; 
      messagePlay.style.color = "#000";
-     messagePlay.style.fontSize = "22px";  
-
-
+     messagePlay.style.fontSize = "22px";     
 
     }; 
 
