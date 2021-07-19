@@ -53,14 +53,22 @@ for (let i = 0; i < cards.length; i++) {
 // < =============== Count level =================== > 
 const sentences = ["Hello", "My", "Name", "Is", "Per"]; 
 let greetingEl = document.getElementById(`greeting-el`); 
+// << push() >>
+let addGreting = "Evans"; 
+sentences.push(addGreting); 
+console.log(sentences); 
 
 for(let i = 0; i < sentences.length; i++) {
-    console.log(sentences[i]); 
+    //console.log(sentences[i]); 
 
-    add = () =>  {
-      greetingEl.textContent = sentences; 
-    }
-    add(); 
+    greetingEl.textContent += sentences[i] + " ";
+
+    // << function >>
+   /*  add = () =>  { */
+   /*    greetingEl.textContent = sentences;  */
+   /*  } */
+   /*  add();  */
+
 }; 
 
 
