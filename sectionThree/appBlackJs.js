@@ -49,6 +49,7 @@ buttonStart.addEventListener(`click`, () => {
 const newCard = document.getElementById(`btnCard`); 
 console.log(newCard); 
 
+// >>> Math ===> 
 let cardThree = Math.floor(Math.random() * 13) + 1; 
 console.log(cardThree);
 
@@ -60,11 +61,21 @@ console.log(cardThree);
 getRandomCard = () => {
      for(let i = 0; i < cardThree.length; i++) {
          newCard.textContent += cardThree[i]; 
-     } 
+     }
+     
+     if(cardThree > 10) {
+         return 10
+     }else if (cardThree === 11) {
+         return 11
+     }else {
+         return cardThree; 
+     }
 }
 // let cardThree = []; 
 /* const countCard = cardThree.push(6);  */
 /* console.log(countCard);  */
+
+// > Assign Value in start Function ===== > 
 
 
 newCard.addEventListener(`click`, () => {
@@ -78,6 +89,7 @@ newCard.addEventListener(`click`, () => {
      newThreeCard.style.color = "blue"; 
 
      getRandomCard(); 
+
      }; 
 
      addTotal(); 
