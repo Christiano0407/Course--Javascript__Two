@@ -287,6 +287,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 
 > Guide HTML DOM Style Object
 - [w3schools-Js](https://www.w3schools.com/jsref/dom_obj_style.asp)
+
 > Media Elements
 - [Media Elements](https://developer.mozilla.org/es/docs/Web/API/HTMLMediaElement)
 
@@ -295,8 +296,16 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Import Js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import)
 - [JS-Emoji](https://github.com/iamcal/js-emoji)
 - [Js-Emoji2](https://www.w3schools.com/CHARSETS/ref_emoji_smileys.asp)
+
 > Emoji
 - [Emojis-Library](https://github.com/iamcal/js-emoji)
+
+> Math Javascript
+- [MathRandom](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [MathFloor](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+- [Math](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math)
+- [Mathround](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/round)
+- [Mathceil](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
 
 > Node Text Content
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
