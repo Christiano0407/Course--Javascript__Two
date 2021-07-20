@@ -3,6 +3,7 @@ console.group("Section Three / BlackJack");
 //const firstCard = 5; 
 //const secondtCard = 10; 
 // >>> Num 1 a 13 para tarjetas ====> 
+// >>> Assign Value in start Function ===== > 
 const firstCard =  Math.floor(Math.random() * 13) + 1; 
 const secondCard =  Math.floor(Math.random() * 13) + 1; 
 
@@ -80,9 +81,6 @@ getRandomCard = () => {
 // let cardThree = []; 
 /* const countCard = cardThree.push(6);  */
 /* console.log(countCard);  */
-
-// > Assign Value in start Function ===== > 
-
 
 newCard.addEventListener(`click`, () => {
      console.log("New Card and Life"); 
