@@ -10,8 +10,10 @@ const secondCard =  Math.floor(Math.random() * 13) + 1;
 let sum = firstCard + secondCard; 
 console.log(sum); 
 let totalSum = sum; 
+// > Operator Logical <
 let hasBlackjack = false; 
 let isLive = false; 
+
 let message = "";  
 // >>> Link to Stylesheet === > 
 // >>>>>> Start Button ===== > 

@@ -307,6 +307,9 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Mathround](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/round)
 - [Mathceil](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
 
+> Logical Operators Js
+- [Logical Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+
 > Node Text Content
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
 
