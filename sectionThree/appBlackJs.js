@@ -49,9 +49,14 @@ buttonStart.addEventListener(`click`, () => {
 const newCard = document.getElementById(`btnCard`); 
 console.log(newCard); 
 
-let cardThree = [3, 5, 6]; 
-console.log(cardThree); 
+let cardThree = Math.floor(Math.random() * 13) + 1; 
+console.log(cardThree);
 
+/* getRandomMath = () => { */
+/*      cardThree = Math.floor(Math.random()*13) + 1;  // 1 - 13 >  */
+/*      return cardThree;  */
+/* } */
+/*  */
 getRandomCard = () => {
      for(let i = 0; i < cardThree.length; i++) {
          newCard.textContent += cardThree[i]; 
@@ -87,7 +92,7 @@ selectCard.addEventListener(`click`, () => {
     youCard = () => {
 
     const newSelect = document.getElementById(`newSelect`); 
-    newSelect.textContent += cardThree[2]; 
+    newSelect.textContent += cardThree; 
     newSelect.style.fontSize = "18px"; 
     newSelect.style.color = "green"; 
 
@@ -105,7 +110,7 @@ buttonTotal.addEventListener(`click`, () => {
 
         const sumaTotal = document.getElementById(`suma`);
         console.log(sumaTotal); 
-        let allSum = totalSum + cardThree[2]; 
+        let allSum = totalSum += cardThree; 
          console.log(allSum); 
         sumaTotal.textContent += allSum; 
         sumaTotal.style.color = " red";
