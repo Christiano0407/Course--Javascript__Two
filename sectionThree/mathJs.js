@@ -32,7 +32,20 @@ console.log(numberThree);
 // >>>> Random y ceil >>>>>>>
 let numberFour = Math.ceil(Math.random() * 7); 
 console.log(numberFour); 
-// >> Random Game <<
+console.groupEnd(); 
+
+console.group("Exercise Random");
+// >> ====================== Random Game Dados ==================== <<
+let randomCube = Math.floor(Math.random() * 6) + 1; 
+console.log(randomCube); 
+
+// < ==== CREATE FUNCTION That return a random number between 1 and 6 =================== >
+
+rollDice = () => {
+  let randomDice = Math.floor(Math.random() * 6) + 1; 
+  return randomDice; 
+}; 
+console.log(rollDice()); 
 
 
 console.groupEnd(); 
