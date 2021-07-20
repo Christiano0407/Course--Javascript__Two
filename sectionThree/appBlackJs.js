@@ -1,15 +1,19 @@
 console.group("Section Three / BlackJack"); 
 // < ========== Variables ========== > 
-const firstCard = 5; 
-const secondCard = 10; 
+//const firstCard = 5; 
+//const secondtCard = 10; 
+// >>> Num 1 a 13 para tarjetas ====> 
+const firstCard =  Math.floor(Math.random() * 13) + 1; 
+const secondCard =  Math.floor(Math.random() * 13) + 1; 
+
 let sum = firstCard + secondCard; 
 console.log(sum); 
 let totalSum = sum; 
 let hasBlackjack = false; 
-let isLive = true; 
+let isLive = false; 
 let message = "";  
-// Link to Stylesheet === > 
-// Start Button ===== > 
+// >>> Link to Stylesheet === > 
+// >>>>>> Start Button ===== > 
 const buttonStart = document.getElementById(`btnStart`);
 console.log(buttonStart); 
 
@@ -23,9 +27,10 @@ let messagePlay = document.getElementById(`message-el`);
 console.log(messagePlay);  
 
 
-// 1 button > 
+// >>>> 1 button // ======== Start Game ===== > 
 function startGame() {
-
+     isLive = true; 
+     console.log(isLive); 
     };
 
 startGame(); 
@@ -39,7 +44,8 @@ buttonStart.addEventListener(`click`, () => {
         console.log(cards); 
         cards.innerText += ` ${firstCard} y ${secondCard} `; 
         cards.style.fontSize = "20px"
-        
+        cards.style.color = "black"; 
+        cards.style.fontWeight = "bold"; 
     }; 
 
     adds();
@@ -107,6 +113,7 @@ selectCard.addEventListener(`click`, () => {
     newSelect.textContent += cardThree; 
     newSelect.style.fontSize = "18px"; 
     newSelect.style.color = "green"; 
+    newSelect.style.fontWeight = "bold"; 
 
     }
     youCard(); 
@@ -126,7 +133,8 @@ buttonTotal.addEventListener(`click`, () => {
          console.log(allSum); 
         sumaTotal.textContent += allSum; 
         sumaTotal.style.color = " red";
-        sumaTotal.style.fontSize = "18xpx"; 
+        sumaTotal.style.fontSize = "22xpx";
+        sumaTotal.style.fontWeight = "bold";  
 
      // suma Total > 
      if(allSum ===  21) {
