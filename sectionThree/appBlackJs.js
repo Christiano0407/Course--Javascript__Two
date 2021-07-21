@@ -23,6 +23,7 @@ console.log(buttonStart);
 // >>>> Player = Total ===> 
 const playerEl = document.getElementById(`player-el`); 
 console.log(playerEl); 
+
 // < =============== CONTINUE BLACKJACK GAME ============== > 
 // Conditional Blackjack >>>>>>>>
 /* buttonStart.addEventListener(`click`, () => { */
@@ -130,6 +131,7 @@ selectCard.addEventListener(`click`, () => {
 // Suma Total con la nueva carta ====> 
 const buttonTotal = document.getElementById(`btnTotal`); 
 console.log(buttonTotal); 
+
 buttonTotal.addEventListener(`click`, () => {
     
     allTotalWin = () => {
@@ -175,11 +177,30 @@ buttonTotal.addEventListener(`click`, () => {
      playerEl.style.fontWeight = "bold"; 
     }; 
 
-    allTotalWin(); 
+    allTotalWin();
 }); 
 
-// >>> === Player Total ===  >
+     // >>> === Player Object ===  >
+    // >>>>> oBJECT-PLAYER <<<<< 
+let player = document.getElementById(`player`);
+console.log(player);
+let playerObj = {
+    winner: "Win :",
+    name: "Chris",
+}; 
 
+player.innerText = `${playerObj.winner} ${playerObj.name}`; 
+player.style.fontSize = "20px";
+
+// >> Fumciones dentro de objetos ==> Llaman métodos >>>>>>
+let  People = { 
+  name: "Homero", 
+  country: "E.U.A", 
+  sayHello: function() {
+      console.log("hello! I´m Homero"); 
+  }
+}
+People.sayHello(); 
 
 console.groupEnd(); 
 

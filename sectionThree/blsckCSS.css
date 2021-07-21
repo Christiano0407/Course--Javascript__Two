@@ -111,5 +111,7 @@ button:active {
     font-size: 1.8rem;
     color: #000000;
     font-weight: 500;
-
+}
+#player {
+    margin: 1rem 0;
 }
