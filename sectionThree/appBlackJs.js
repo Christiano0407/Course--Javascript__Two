@@ -20,6 +20,9 @@ let message = "";
 const buttonStart = document.getElementById(`btnStart`);
 console.log(buttonStart); 
 
+// >>>> Player = Total ===> 
+const playerEl = document.getElementById(`player-el`); 
+console.log(playerEl); 
 // < =============== CONTINUE BLACKJACK GAME ============== > 
 // Conditional Blackjack >>>>>>>>
 /* buttonStart.addEventListener(`click`, () => { */
@@ -108,12 +111,16 @@ console.log(selectCard);
 selectCard.addEventListener(`click`, () => {
 
     youCard = () => {
-
-    const newSelect = document.getElementById(`newSelect`); 
-    newSelect.textContent += cardThree; 
-    newSelect.style.fontSize = "18px"; 
-    newSelect.style.color = "green"; 
-    newSelect.style.fontWeight = "bold"; 
+     
+        if(isLive === true && hasBlackjack === false) {
+           const newSelect = document.getElementById(`newSelect`); 
+           newSelect.textContent += cardThree; 
+           newSelect.style.fontSize = "18px"; 
+           newSelect.style.color = "green"; 
+           newSelect.style.fontWeight = "bold"; 
+        }else {
+         console.log("I´m sorry but not change with you!")
+        }
 
     }
     youCard(); 
@@ -140,12 +147,16 @@ buttonTotal.addEventListener(`click`, () => {
      if(allSum ===  21) {
         message = "wohoo! You´ve got Blackjack"; 
         hasBlackjack = true; 
-    }else if (allSum <= 20) {
+    } else if (allSum <= 20) {
         message = "Do you want to draw a new card"; 
-    }else {
+    } else if (allSum > 21) {
+       message = "Your Winning one opportunity more"
+      hasBlackjack = false; 
+      isLive = true; 
+    } else {
         message = "You´re out of the game"; 
         isLive = false; 
-       }; 
+    };
        // Cash >>>>>>
     console.log(hasBlackjack); 
      // ADD basic styling === > 
@@ -158,10 +169,17 @@ buttonTotal.addEventListener(`click`, () => {
      messagePlay.style.color = "#000";
      messagePlay.style.fontSize = "22px";     
 
+     playerEl.innerText += allSum; 
+     playerEl.style.color = "#000"; 
+     playerEl.style.fontSize = "22px"; 
+     playerEl.style.fontWeight = "bold"; 
     }; 
 
     allTotalWin(); 
 }); 
+
+// >>> === Player Total ===  >
+
 
 console.groupEnd(); 
 

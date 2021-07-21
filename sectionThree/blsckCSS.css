@@ -103,3 +103,10 @@ button:is(:hover) {
 .newSelect {
     font-size: 1.6rem;
 }
+#player-el {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    color: #000000;
+    font-weight: 500;
+
+}
