@@ -88,12 +88,15 @@ button {
     outline: none;
     border-radius: .5rem;
     text-align: center;
+    cursor: pointer;
 }
 button:is(:hover) {
     background: #ffffff;
     color: #000000;
     font-weight: bold;
-    cursor: pointer;
+}
+button:active {
+    transform: scale(.9);
 }
 
 .newThreeCard {
