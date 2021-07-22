@@ -69,13 +69,36 @@ The 5 largest countries in the world:
 let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]; 
 console.log(largeCountries); 
 
+for (let i = 0; i < largeCountries.length; i++) {
+    console.log(largeCountries[i]); 
+}
+/* largeCountries.forEach((item, index) => { */
+/*     console.log(item, index);  */
+/* });  */
+
 // 4) <<< ================ PUSH / POP / UNSHIFT ========================== >>>
 // You need to help me fixup the largeCountries array so that 
 // China and Pakistan are added back into their respective places
 
 // Use push() & pop() and their counterparts unshift() & shift()
 // Google how to use unshift() and shift()
+
 let largeCountriesTwo = ["Tuvalu","India","USA","Indonesia","Monaco"]
 console.log(largeCountriesTwo); 
+// = push() =
+largeCountriesTwo.push("China", "Pakistan"); 
+console.log(largeCountriesTwo); 
+// = forEach() =
+largeCountriesTwo.forEach((item, index) => {
+    console.log(item, index); 
+}); 
+// = pop() =
+largeCountriesTwo.pop()
+console.log(largeCountriesTwo); 
+// = Unshift() = El método unshift() agrega uno o más elementos al inicio del array, y devuelve la nueva longitud del array. ==
+largeCountriesTwo.unshift("United Kingdom", "Italy"); 
+console.log(largeCountriesTwo); 
+
+// = Shift() =
 
 console.groupEnd(); 
