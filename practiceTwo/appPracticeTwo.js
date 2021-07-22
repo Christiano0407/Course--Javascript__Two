@@ -99,6 +99,14 @@ console.log(largeCountriesTwo);
 largeCountriesTwo.unshift("United Kingdom", "Italy"); 
 console.log(largeCountriesTwo); 
 
-// = Shift() =
+// = Shift() = El método shift() elimina el primer elemento del array y lo retorna. Este método modifica la longitud del array.
+largeCountriesTwo.shift(); 
+console.log(largeCountriesTwo);
+
+// 5) >>>> ================ Logical Operators ================= <<<<
+
+// 6) >>>> =============== Rock Paper scissor ================ <<<<
+
+// 7) >>>>>>> =========== Shorting Fruits ============ <<<<<<<<<<<<
 
 console.groupEnd(); 
