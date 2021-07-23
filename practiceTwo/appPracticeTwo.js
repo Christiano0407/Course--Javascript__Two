@@ -121,8 +121,23 @@ oneDay();
 // 6) >>>> =============== Rock Paper scissor ================ <<<<
 // Create a function that returns a random item from the array
 let hands = ["Rock", "Paper", "Scissor"]; 
-console.log(hands); 
+
+getHand = () => {
+  let randomIndex = Math.floor(Math.random() * 3); 
+  return hands[randomIndex]; 
+}
+console.log(getHand()); 
 
 // 7) >>>>>>> =========== Shorting Fruits ============ <<<<<<<<<<<<
+// Create a function that puts the apples onto the appleShelf
+// and the oranges onto the orangeShelf. Use a for loop,
+// a conditional statement, and the textContent property.
+let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"]; 
+const apple = document.getElementById(`apple-sheld`); 
+console.log(apple); 
+const orange = document.getElementById(`orange-sheld`); 
+console.log(orange); 
+
+
 
 console.groupEnd(); 
