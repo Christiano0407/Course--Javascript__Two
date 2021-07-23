@@ -104,8 +104,24 @@ largeCountriesTwo.shift();
 console.log(largeCountriesTwo);
 
 // 5) >>>> ================ Logical Operators ================= <<<<
+// If it is Friday the 13th, log out this spooky face: 
+// Use the logical "AND operator" -> &&
 
+let dayOfMonth = 13; 
+let weekDay = "Friday"; 
+
+oneDay = () => {
+ if(dayOfMonth === 13) {
+   console.log(true); 
+ }else if(weekDay === "Friday") {
+   console.log(true); 
+ }
+}; 
+oneDay(); 
 // 6) >>>> =============== Rock Paper scissor ================ <<<<
+// Create a function that returns a random item from the array
+let hands = ["Rock", "Paper", "Scissor"]; 
+console.log(hands); 
 
 // 7) >>>>>>> =========== Shorting Fruits ============ <<<<<<<<<<<<
 
