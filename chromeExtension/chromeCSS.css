@@ -1,0 +1,41 @@
+:root {
+    --clr-White: #ffffff; 
+    --clr-black: #000000; 
+
+    --font-family:'Oswald', sans-serif; 
+}
+*,::before,::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+body {
+    width: 100%;
+   /*  font-family: 'Oswald', sans-serif; */
+   font: var(--font-family);
+}
+.main {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    width: 100%;
+}

@@ -138,6 +138,23 @@ console.log(apple);
 const orange = document.getElementById(`orange-sheld`); 
 console.log(orange); 
 
+sortFruit = () => {
+  
+  for(let i = 0; i < fruit.length; i++) {
+    if(fruit[i] === "🍎") {
+       apple.textContent += "🍎"; 
+    }else if(fruit[i] === "🍊") {
+       orange.textContent += "🍊"; 
+    }else {
+       console.log("Error"); 
+    }
+  }
 
+  apple.style.fontSize = "20px"; 
+
+  orange.style.fontSize = "20px"; 
+}; 
+
+console.log(sortFruit()); 
 
 console.groupEnd(); 
