@@ -49,19 +49,33 @@ box.addEventListener(`click`, function() {
 // =========== InnerHTML PRACTICE ===============>
 const container = document.getElementById(`container`); 
 console.log(container); 
+
 const containerTwo = document.getElementById(`containerTwo`); 
 console.log(containerTwo); 
 
+const btnThree = document.getElementById(`btnThree`); 
+console.log(btnThree); 
+// 1) ======================================== > 
 container.innerHTML = `<p>Create Container</p>`; 
 container.style.color = `red`; 
 container.style.fontSize = `20px`; 
 container.style.fontWeight = `700`; 
-
+// 2) ========================================== >
 containerTwo.innerHTML = `<p>I´m create on my first InnerHTML</p>`; 
+
 containerTwo.style.color = `blue`; 
 containerTwo.style.fontSize = `18px`; 
 containerTwo.style.fontWeight = `400`; 
 containerTwo.style.textAlign = `center`; 
-
+// 3) =============== ========================== >
+btnThree.innerHTML = `<button onclick = "buy()">Buy!</button>`
+function buy() {
+    console.log("Thank you for buying");
+    btnThree.innerHTML = `<p>Thank you for buying!</p>`;  
+   
+    btnThree.style.color = "#000"; 
+    btnThree.style.fontSize = "24px"; 
+    btnThree.style.fontWeight = "bold"; 
+} 
 
 console.groupEnd(); 
