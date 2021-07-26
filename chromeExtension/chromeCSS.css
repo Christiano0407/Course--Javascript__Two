@@ -30,6 +30,7 @@ body {
     width: 100%;
    /*  font-family: 'Oswald', sans-serif; */
    font: var(--font-family);
+   min-width: 450px;
 }
 .main {
     width: 100%;
