@@ -20,7 +20,16 @@ button.addEventListener(`click`, () => {
 for(let i = 0; i < myLeads.length; i++) {
     console.log(myLeads[i]); 
 }
+console.groupEnd(); 
+console.group("BOX"); 
 
+// >>>>>>>>>>>>>>>> =========== Exercise BOX =============== <<<<<<<<<<<<<<<<<<<<<<<<
+let box = document.getElementById(`boxs`); 
+console.log(boxs); 
+
+box.addEventListener(`click`, function() {
+    console.log("box!"); 
+})
 
 
 console.groupEnd(); 
