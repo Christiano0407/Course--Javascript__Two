@@ -149,6 +149,8 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [CreateText-Node](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
 - [minmax-CSS](https://developer.mozilla.org/es/docs/Web/CSS/minmax)
 
+> How to clear input using javascript
+- [clear Input](https://stackoverflow.com/questions/17237772/html-how-to-clear-input-using-javascript)
 ## Curso Javascript Nivel Mind
 
 - [Soy Dalto](https://www.youtube.com/watch?v=xOinGb2MZSk&t=37s)

@@ -4,7 +4,9 @@ console.group("Build Chrome");
 const input = document.getElementById(`input-el`); 
 const button = document.getElementById(`input-btn`); 
 // ==>> Array de datos <<<<
-let myLeads = ["www.awesomeLead.com "," www.epiclead.com "," www.greatCloud.com "]; 
+//let myLeads = ["www.awesomeLead.com "," www.epiclead.com "," www.greatCloud.com "]; 
+// ====  RenderLeads() function ===== >
+let myLeads = []; 
 
 // ==== Lista desordenada ====>
 const ulEl = document.getElementById(`ul-el`); 
@@ -19,29 +21,45 @@ button.addEventListener(`click`, () => {
    myLeads.push(input.value); 
    console.log(myLeads); 
 
-   
+   // == 4) Clear out the input field ==
+   input.value = ""; 
+
+   renderLeads(); 
 });
 // >>>>> Ciclo para guardar los datos ingresados <<<<<<
 // 1) <<< Array using a for loop ========
 // 2) ==== Render ulList using ulEl.textContent =====  
-for(let i = 0; i < myLeads.length; i++) {
-    // console.log(myLeads[i]);
-     
-  // 1) == Primera forma == 
-    /* ulEl.textContent += myLeads[i]; */
-    /* ulEl.innerHTML += `<li>${myLeads[i]}</li>`;  */
-    /* ulEl.style.fontSize = `20px`;  */
-    /* ulEl.style.fontWeight = "700"; */
 
-    // 2) ===== forma de hacer / CREAR UN ELEMENTO ==== :
-    const li = document.createElement(`li`);
-    li.textContent = myLeads[i]; 
-    // == Method / element ==
-    ulEl.append(li); 
-    ulEl.style.fontSize = `20px`; 
-    ulEl.style.fontWeight = "700"; 
-    // === El Element.append()método inserta un conjunto de Nodeobjetos u DOMStringobjetos después del último hijo de Element. DOMStringlos objetos se insertan como Textnodos equivalentes . ====
-}
+// 3) ====  RenderLeads() function ===== >
+function renderLeads() {
+    let listItem = "";  
+
+    for(let i = 0; i < myLeads.length; i++) {
+        // console.log(myLeads[i]);
+    
+      // 1) == Primera forma == 
+        /* ulEl.textContent += myLeads[i]; */
+        /* ulEl.innerHTML += `<li>${myLeads[i]}</li>`;  */
+        /* ulEl.style.fontSize = `20px`;  */
+        /* ulEl.style.fontWeight = "700"; */
+    
+        // 2) ===== forma de hacer / CREAR UN ELEMENTO ==== :
+     /*    const li = document.createElement(`li`); */
+     /*    li.textContent = myLeads[i];  */
+     /*    // == Method / element == */
+     /*    ulEl.append(li);  */
+
+        // 3 ) == extra forma ==
+        listItem += `<li>${myLeads[i]}</li>`; 
+        ulEl.innerHTML = listItem; 
+        ulEl.style.fontSize = `20px`; 
+        ulEl.style.fontWeight = "700"; 
+       
+    }   
+
+}; 
+ // > append() === El Element.append()método inserta un conjunto de Nodeobjetos u DOMStringobjetos después del último hijo de Element. DOMStringlos objetos se insertan como Textnodos equivalentes . ====
+
 console.groupEnd(); 
 
 
