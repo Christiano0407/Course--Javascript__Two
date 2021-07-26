@@ -97,3 +97,10 @@ button:active {
 .box:active {
     transform: scale(.9);
 }
+
+#container {
+    margin: 2rem 0;
+}
+#containerTwo {
+    margin: 2rem 0;
+}
