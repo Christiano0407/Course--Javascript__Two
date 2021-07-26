@@ -25,12 +25,22 @@ button.addEventListener(`click`, () => {
 // 1) <<< Array using a for loop ========
 // 2) ==== Render ulList using ulEl.textContent =====  
 for(let i = 0; i < myLeads.length; i++) {
-    // console.log(myLeads[i]); 
+    // console.log(myLeads[i]);
+     
+  // 1) == Primera forma == 
+    /* ulEl.textContent += myLeads[i]; */
+    /* ulEl.innerHTML += `<li>${myLeads[i]}</li>`;  */
+    /* ulEl.style.fontSize = `20px`;  */
+    /* ulEl.style.fontWeight = "700"; */
 
-    ulEl.textContent += myLeads[i];
-    ulEl.innerHTML += `<li>${myLeads[i]}</li>`; 
+    // 2) ===== forma de hacer / CREAR UN ELEMENTO ==== :
+    const li = document.createElement(`li`);
+    li.textContent = myLeads[i]; 
+    // == Method / element ==
+    ulEl.append(li); 
     ulEl.style.fontSize = `20px`; 
-    ulEl.style.fontWeight = "700";
+    ulEl.style.fontWeight = "700"; 
+    // === El Element.append()método inserta un conjunto de Nodeobjetos u DOMStringobjetos después del último hijo de Element. DOMStringlos objetos se insertan como Textnodos equivalentes . ====
 }
 console.groupEnd(); 
 

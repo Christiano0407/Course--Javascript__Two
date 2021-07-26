@@ -107,6 +107,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [text_Content](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
 - [Method-js](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Method_definitions)
 - [Methods-w3](https://www.w3schools.com/js/js_object_methods.asp#:~:text=JavaScript%20methods%20are%20actions%20that,property%20containing%20a%20function%20definition.&text=Methods%20are%20functions%20stored%20as%20object%20properties.)
+- [element-append](https://developer.mozilla.org/en-US/docs/Web/API/Element/append)
 - [Dom-Intro_js](https://www.w3schools.com/js/js_htmldom.asp)
 
 > EVENTS JS
@@ -139,7 +140,7 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > Modificar el DOM
 
 - [IntroductionDOM_JS](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-
+- [createElementjs](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
 - [Modificar-Dom](https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-modification/a/summary-dom-modification-techniques)
 - [article-Dom](https://www.digitalocean.com/community/tutorials/como-modificar-atributos-clases-y-estilos-en-el-dom-es)
 - [Value](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
