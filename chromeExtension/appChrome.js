@@ -65,8 +65,8 @@ function renderLeads() {
 }; 
  // > append() === El Element.append()método inserta un conjunto de Nodeobjetos u DOMStringobjetos después del último hijo de Element. DOMStringlos objetos se insertan como Textnodos equivalentes . ====
 
- // = Deployment = 
- 
+ // = Deployment = == JSON (Javascript Object Notation) ==== Almacenar y envíar datos === >
+
 console.groupEnd(); 
 
 
