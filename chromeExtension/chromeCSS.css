@@ -38,4 +38,30 @@ h1 {
 }
 .container {
     width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5f9341;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+button {
+    background: #5f9341;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:is(:hover) {
+    background: #121d0c;
+    color: #5f9341;
+}
+button:active {
+    transform: scale(.9);
 }
