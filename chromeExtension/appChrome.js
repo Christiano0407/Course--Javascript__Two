@@ -50,16 +50,23 @@ function renderLeads() {
      /*    ulEl.append(li);  */
 
         // 3 ) == extra forma ==
-        listItem += `<li>${myLeads[i]}</li>`; 
+        // < ==== Se llama TEMPLATE STRING = `${}` === >
+        listItem += `<li>
+                        <a href="${myLeads[i]}"  target="_blank">${myLeads[i]}</a>
+                     </li>`; 
+        //listItem += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
+        console.log(listItem); 
         ulEl.innerHTML = listItem; 
         ulEl.style.fontSize = `20px`; 
         ulEl.style.fontWeight = "700"; 
-       
+        ulEl.style.margin = `20px 0`; 
     }   
 
 }; 
  // > append() === El Element.append()método inserta un conjunto de Nodeobjetos u DOMStringobjetos después del último hijo de Element. DOMStringlos objetos se insertan como Textnodos equivalentes . ====
 
+ // = Deployment = 
+ 
 console.groupEnd(); 
 
 
