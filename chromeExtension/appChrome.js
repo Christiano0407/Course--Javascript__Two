@@ -4,9 +4,10 @@ console.group("Build Chrome");
 const input = document.getElementById(`input-el`); 
 const button = document.getElementById(`input-btn`); 
 
-let myLeads = ["www.awesomeLead.com", "www.epiclead.com", "www.greatCloud.com"]; 
+let myLeads = ["www.awesomeLead.com","www.epiclead.com","www.greatCloud.com"]; 
 
 // >>>>>>>>>>>> ====== Eventos ===== <<<<<<<<<<<<<
+// ========= Ir agregando datos ========
 button.addEventListener(`click`, () => {
    console.log("I´m Button!"); 
 // >>>> Methods >>>>>
@@ -15,7 +16,7 @@ button.addEventListener(`click`, () => {
 
    
 });
-
+// >>>>> Ciclo para guardar los datos ingresados <<<<<<
 for(let i = 0; i < myLeads.length; i++) {
     console.log(myLeads[i]); 
 }
