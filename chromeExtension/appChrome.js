@@ -12,6 +12,9 @@ let myLeads = [];
 const ulEl = document.getElementById(`ul-el`); 
 console.log(ulEl); 
 
+//
+//console.log(localStorage.getItem("myLeads")); 
+
 // >>>>>>>>>>>> ====== Eventos ===== <<<<<<<<<<<<<
 // ========= Ir agregando datos / Save input button ========
 // >>> Get Value from input field js / Tipo Google Ads >
@@ -20,11 +23,15 @@ button.addEventListener(`click`, () => {
 // >>>> Methods >>>>>
    myLeads.push(input.value); 
    console.log(myLeads); 
-
+   // JSON 
+   localStorage.setItem("myLeads", JSON.stringify(myLeads)); 
+   
    // == 4) Clear out the input field ==
    input.value = ""; 
 
    renderLeads(); 
+   // tO VERIFY = LOCALSTORAGE =
+   console.log(localStorage.getItem("myLeads")); 
 });
 // >>>>> Ciclo para guardar los datos ingresados <<<<<<
 // 1) <<< Array using a for loop ========
@@ -66,6 +73,31 @@ function renderLeads() {
  // > append() === El Element.append()método inserta un conjunto de Nodeobjetos u DOMStringobjetos después del último hijo de Element. DOMStringlos objetos se insertan como Textnodos equivalentes . ====
 
  // = Deployment = == JSON (Javascript Object Notation) ==== Almacenar y envíar datos === >
+
+ // LocalStorage
+ /* let names = localStorage.getItem("myName") */
+ /* console.log(names);  */
+ // localStorage.clear()
+
+ // < =========== JSON /JSON.perse() ========== >
+ // < Transforma los valores en formato JSON >
+// 1) ===
+ let myFriends = `["Mauricio Chávez"]`; 
+myFriends = JSON.parse(myFriends);
+myFriends.push("Alma Rosa"); 
+console.log(myFriends); 
+
+// 2) ===
+let myBros = ["Luisa Cantú"]; 
+myBros = JSON.stringify(myBros); 
+console.log(myBros); 
+
+// 3) ===
+let girls = `["Jennifer Alexander"]`; 
+
+girls = JSON.parse(girls); 
+girls.push("Natalia Valenzuela"); 
+console.log(girls); 
 
 console.groupEnd(); 
 

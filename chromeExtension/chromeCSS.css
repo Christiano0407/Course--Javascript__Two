@@ -1,6 +1,7 @@
 :root {
     --clr-White: #ffffff; 
     --clr-black: #000000; 
+    --color-scheme: light dark; 
 
     --font-family:'Oswald', sans-serif; 
 }

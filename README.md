@@ -312,6 +312,11 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 
 > Logical Operators Js
 - [Logical Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+- [local Storage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+- [Local Storage JSON](https://stackoverflow.com/questions/3357553/how-do-i-store-an-array-in-localstorage)
+> JSON 
+- [JSON Parse](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+- [json Stringify](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 
 > Node Text Content
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
