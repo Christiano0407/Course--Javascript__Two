@@ -14,6 +14,9 @@ console.log(ulEl);
 
 //
 //console.log(localStorage.getItem("myLeads")); 
+localStorage.clear(); 
+let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads")); 
+console.log(leadsFromLocalStorage); 
 
 // >>>>>>>>>>>> ====== Eventos ===== <<<<<<<<<<<<<
 // ========= Ir agregando datos / Save input button ========
