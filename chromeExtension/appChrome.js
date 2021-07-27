@@ -37,6 +37,11 @@ if(leadsFromLocalStorage) {
     render(myLeads)
 }
 
+// == save Tab button ==
+/* const tabs = [ */
+/*     {url:"https://www.linkedin.com/in/chris-vel%C3%A1zquez/"} */
+/* ] */
+/*  */
 // < ==== Delete All Button ====== > 
 // 2. Listen for double clicks on the delete button (google it!)
 // 3. When clicked, clear localStorage, myLeads, and the DOM
@@ -49,6 +54,22 @@ btnDelete.addEventListener(`dblclick`, function() {
     myLeads = []; 
     render(myLeads); 
 })
+// ===== Save button Tab ========== ><<<
+const saveBtn = document.getElementById(`input-btn_tab`); 
+
+saveBtn.addEventListener(`click`, (tabs) => {
+     // save the url intead of logging it out.
+     //console.log(tabs[0].url); 
+   chrome.tabs.query({active:true, currentWindow:true}, function(tabs) {
+    myLeads.push(tabs[0].url); 
+    localStorage.setItem("myLeads", JSON.stringify(myLeads) ); 
+    render(myLeads); 
+     
+   })
+
+}); 
+
+
 // ========= Ir agregando datos / Save input button ========
 // >>> Get Value from input field js / Tipo Google Ads >
 button.addEventListener(`click`, () => {
