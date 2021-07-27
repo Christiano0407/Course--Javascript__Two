@@ -115,3 +115,8 @@ button:active {
 #btnThree {
     margin: 2rem 2rem;
 }
+#input-btn_delete {
+    background: #ffffff;
+    color: #5f9341;
+    border: 2px solid #5f9341;
+}

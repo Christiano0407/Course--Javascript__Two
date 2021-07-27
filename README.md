@@ -314,13 +314,22 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Logical Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 - [local Storage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
 - [Local Storage JSON](https://stackoverflow.com/questions/3357553/how-do-i-store-an-array-in-localstorage)
-> JSON 
+> JSON / Methods
 - [JSON Parse](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
 - [json Stringify](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 - [Json SessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+- [Storage Key](https://developer.mozilla.org/en-US/docs/Web/API/Storage/key)
 - [Storage setItem](https://developer.mozilla.org/es/docs/Web/API/Storage/setItem)
+- [Storage getItem](https://developer.mozilla.org/es/docs/Web/API/Storage/getItem)
+- [Remove Item](https://developer.mozilla.org/es/docs/Web/API/Storage/removeItem)
+- [Storage Clear](https://developer.mozilla.org/es/docs/Web/API/Storage/clear)
 - [API Almacenamiento Web](https://developer.mozilla.org/es/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
 - [Storage / Almacenamiento](https://developer.mozilla.org/es/docs/Web/API/Storage)
+> Events 
+- [dbClick Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/dblclick_event)
+- [Click Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
+- [Mousedown Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event)
+- [MoseUp](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event)
 
 > Node Text Content
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)

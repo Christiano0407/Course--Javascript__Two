@@ -17,7 +17,7 @@ const button = document.getElementById(`input-btn`);
 //let myLeads = ["www.awesomeLead.com "," www.epiclead.com "," www.greatCloud.com "]; 
 // ====  RenderLeads() function ===== >
 let myLeads = []; 
-
+let oldLeads = []; 
 // ==== Lista desordenada ====>
 const ulEl = document.getElementById(`ul-el`); 
 console.log(ulEl); 
@@ -32,8 +32,23 @@ console.log(leadsFromLocalStorage);
 
 // 1. Check if leadsFromLocalStorage is truthy
 // 2. If so, set myLeads to its value and call renderLeads()
+if(leadsFromLocalStorage) {
+    myLeads = leadsFromLocalStorage
+    render(myLeads)
+}
 
+// < ==== Delete All Button ====== > 
+// 2. Listen for double clicks on the delete button (google it!)
+// 3. When clicked, clear localStorage, myLeads, and the DOM
+const btnDelete = document.getElementById(`input-btn_delete`); 
 
+btnDelete.addEventListener(`dblclick`, function() {
+    console.log("Delete dbClick!"); 
+
+    localStorage.clear();  
+    myLeads = []; 
+    render(myLeads); 
+})
 // ========= Ir agregando datos / Save input button ========
 // >>> Get Value from input field js / Tipo Google Ads >
 button.addEventListener(`click`, () => {
@@ -47,7 +62,7 @@ button.addEventListener(`click`, () => {
    // == 4) Clear out the input field ==
    input.value = ""; 
 
-   renderLeads(); 
+   render(myLeads); 
    // tO VERIFY = LOCALSTORAGE =
    console.log(localStorage.getItem("myLeads")); 
 });
@@ -56,10 +71,10 @@ button.addEventListener(`click`, () => {
 // 2) ==== Render ulList using ulEl.textContent =====  
 
 // 3) ====  RenderLeads() function ===== >
-function renderLeads() {
+function render(leads) {
     let listItem = "";  
 
-    for(let i = 0; i < myLeads.length; i++) {
+    for(let i = 0; i < leads.length; i++) {
         // console.log(myLeads[i]);
     
       // 1) == Primera forma == 
@@ -76,7 +91,7 @@ function renderLeads() {
 
         // 3 ) == extra forma ==
         // < ==== Se llama TEMPLATE STRING = `${}` === >
-        listItem += `<li><a href="${myLeads[i]}"  target="_blank">${myLeads[i]}</a></li>`; 
+        listItem += `<li><a href="${leads[i]}"  target="_blank">${leads[i]}</a></li>`; 
         //listItem += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
         console.log(listItem); 
         ulEl.innerHTML = listItem; 
@@ -115,12 +130,11 @@ girls = JSON.parse(girls);
 girls.push("Natalia Valenzuela"); 
 console.log(girls); 
 
+
 console.groupEnd(); 
 
-
-
 console.group("BOX"); 
-
+// ======================================================================================================== 
 // >>>>>>>>>>>>>>>> =========== Exercise BOX =============== <<<<<<<<<<<<<<<<<<<<<<<<
 let box = document.getElementById(`boxs`); 
 console.log(boxs); 
