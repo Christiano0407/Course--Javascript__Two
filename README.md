@@ -13,6 +13,14 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [Scrimba](https://scrimba.com/learn/learnjavascript)
 - [scrimba/freecodecamp Repository](https://github.com/scrimba/learn-javascript)
 
+# Course Async and Await 
+- [freecodecamp](https://www.youtube.com/watch?v=ZYb_ZU8LNxs&t=3s)
+> Article 
+- [freecodecamp - Joy Shaheb](https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/)
+> tIME
+- [SetTimeOut](https://www.w3schools.com/jsreF/met_win_settimeout.asp)
+- [SetInterval](https://www.w3schools.com/jsreF/met_win_setinterval.asp)
+
 > API REST with Javascript
 - [Dave Gray_API](https://www.youtube.com/watch?v=bC5KVrX-AlA)
 # Teachers Platzi
