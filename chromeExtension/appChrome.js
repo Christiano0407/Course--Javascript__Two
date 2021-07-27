@@ -25,7 +25,7 @@ button.addEventListener(`click`, () => {
    console.log(myLeads); 
    // JSON 
    localStorage.setItem("myLeads", JSON.stringify(myLeads)); 
-   
+
    // == 4) Clear out the input field ==
    input.value = ""; 
 
@@ -58,9 +58,7 @@ function renderLeads() {
 
         // 3 ) == extra forma ==
         // < ==== Se llama TEMPLATE STRING = `${}` === >
-        listItem += `<li>
-                        <a href="${myLeads[i]}"  target="_blank">${myLeads[i]}</a>
-                     </li>`; 
+        listItem += `<li><a href="${myLeads[i]}"  target="_blank">${myLeads[i]}</a></li>`; 
         //listItem += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
         console.log(listItem); 
         ulEl.innerHTML = listItem; 
