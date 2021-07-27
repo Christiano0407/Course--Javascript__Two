@@ -1,4 +1,14 @@
 console.group("Build Chrome"); 
+// truthy
+// falsy
+
+// false
+// 0
+// ""
+// null -> how you as a developer signalize emptiness
+// undefined -> how JavaScript signalizes emptiness
+// NaN
+
 // =========== =========== <<<<< Chrome Exercise >>>>>> ================= ================
 // =========== <<<<< Variables >>>>>> ================= 
 const input = document.getElementById(`input-el`); 
@@ -19,6 +29,11 @@ let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads"));
 console.log(leadsFromLocalStorage); 
 
 // >>>>>>>>>>>> ====== Eventos ===== <<<<<<<<<<<<<
+
+// 1. Check if leadsFromLocalStorage is truthy
+// 2. If so, set myLeads to its value and call renderLeads()
+
+
 // ========= Ir agregando datos / Save input button ========
 // >>> Get Value from input field js / Tipo Google Ads >
 button.addEventListener(`click`, () => {

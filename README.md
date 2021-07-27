@@ -317,6 +317,10 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > JSON 
 - [JSON Parse](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
 - [json Stringify](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+- [Json SessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+- [Storage setItem](https://developer.mozilla.org/es/docs/Web/API/Storage/setItem)
+- [API Almacenamiento Web](https://developer.mozilla.org/es/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
+- [Storage / Almacenamiento](https://developer.mozilla.org/es/docs/Web/API/Storage)
 
 > Node Text Content
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
