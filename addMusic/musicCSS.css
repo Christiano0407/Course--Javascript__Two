@@ -1,6 +1,13 @@
 :root {
     --clr-White: #ffffff; 
     --clr-black: #000000; 
+    --clr-base: #2F2B8C; 
+    --clr-sec: #1A5A73; 
+    --clr-comp: #04BF68; 
+    --clr-som1: #2B4C8C; 
+    --clr-som2: #05A66B; 
+
+
 }
 *,::before,::after {
     margin: 0;
@@ -13,6 +20,7 @@ html {
 
 body {
     width: 100%;
+    font-family: 'Play', sans-serif;
 }
 ul {
     list-style: none;
@@ -26,4 +34,57 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), #002b48), url(../addMusic/image/play6.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music {
+    width: 85%;
+    position: relative;
+    z-index: 2;
+    padding: 3rem;
+    margin: 2rem auto;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.music img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 4px 5px #16161616;
+    border-radius: 5px;
+}
+.info {
+    width: 100%;
+    grid-column: 2 / 3;
+}
+.info h1 {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.info p {
+    font-size: 1.4rem;
+    color: #ffffff;
 }
