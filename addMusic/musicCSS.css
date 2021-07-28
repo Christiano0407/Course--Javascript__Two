@@ -91,6 +91,7 @@ img {
 .info p {
     font-size: 1.4rem;
     color: #ffffff;
+    opacity: .5;
     padding: .5rem;
     margin: .5rem auto;
 }
