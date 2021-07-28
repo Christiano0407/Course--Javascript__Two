@@ -365,6 +365,14 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 - [MUZ](https://muz.li/)
 - [Material Design](https://material.io/)
 
+# Tips Html 
+- [audio](https://www.w3schools.com/html/html5_audio.asp)
+- [video](https://www.w3schools.com/html/html5_video.asp)
+- [media](https://www.w3schools.com/html/html_media.asp)
+- [plugins](https://www.w3schools.com/html/html_object.asp)
+- [youtube](https://www.w3schools.com/html/html_youtube.asp)
+- [SVG](https://www.w3schools.com/html/html5_svg.asp)
+
 # MIT LICENSE
 
  > MIT License:
