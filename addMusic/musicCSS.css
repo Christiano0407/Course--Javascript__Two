@@ -101,19 +101,19 @@ figure {
     padding: .5rem;
     margin: .5rem auto;
 }
-/* .info-icons { */
-/*     width: 100%; */
-/*     padding: 1rem; */
-/*     padding: .5rem; */
-/*     display: flex; */
-/*     justify-content: space-evenly; */
-/*     align-items: center; */
-/* } */
-/* .info-icons a i { */
-/*     font-size: 2rem; */
-/*     cursor: pointer; */
-/*     color: #ffffff; */
-/* } */
+.info-icons {
+    width: 100%;
+    padding: 1rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info-icons a i {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ffffff;
+}
 .audioOne {
     width: 100%;
     margin: 1rem auto;

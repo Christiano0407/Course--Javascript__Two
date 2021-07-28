@@ -342,6 +342,8 @@ Courses and practice with Vanilla Javascript. Practice with Frameworks and NodeJ
 > Node Text Content
 - [NodeText](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
 
+> Audio Javascript
+- [wavesurferJs](https://wavesurfer-js.org/)
 # Extra Tips: Guides Web
 > Guide Responsive Web Design 
 - [freecodecamp/Responsive/CSS](https://www.freecodecamp.org/learn/responsive-web-design/)
